@@ -1,0 +1,15 @@
+{
+  "_aide": "Réglages du robot BH AUTOSELECT. Modifie les valeurs puis 'Commit changes'. Le robot s'en servira au prochain passage.",
+  "prixMaxAchat": 5000,
+  "margeMinBonneAffaire": 700,
+  "fraisFixesParVoiture": 300,
+  "fraisAcheteurParDefautPourcent": 14.4,
+  "departementsRetrait": ["60", "80", "02", "95", "77", "93", "94", "92", "75", "78", "91", "51", "76", "27", "59", "62"],
+  "maxLotsAnalysesParSource": 150,
+  "maxAlertesParPassage": 8,
+  "sources": {
+    "interencheres": true,
+    "alcopa": true,
+    "domaines": true
+  }
+}
