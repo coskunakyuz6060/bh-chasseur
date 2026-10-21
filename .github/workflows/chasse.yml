@@ -1,0 +1,39 @@
+name: Chasse aux voitures
+
+on:
+  schedule:
+    - cron: "5 6,12,17 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: chasse
+  cancel-in-progress: false
+
+jobs:
+  chasse:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Installer le robot
+        run: |
+          npm install --no-audit --no-fund
+          npx playwright install --with-deps chromium
+      - name: Lancer la recherche
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+        run: node scraper/run.mjs
+      - name: Enregistrer les résultats
+        run: |
+          git config user.name "BH Chasseur"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/data
+          git diff --cached --quiet || git commit -m "Résultats du $(date +'%d/%m/%Y %H:%M')"
+          git push
