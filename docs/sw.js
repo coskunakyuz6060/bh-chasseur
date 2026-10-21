@@ -1,6 +1,6 @@
 // Cache minimal : l'appli s'ouvre même sans réseau (dernières données vues).
-const C = 'bh-chasseur-v2';
-self.addEventListener('install', (e) => { self.skipWaiting(); e.waitUntil(caches.open(C).then((c) => c.addAll(['./', 'index.html', 'manifest.webmanifest', 'icon-192.png' , 'analyse.mjs']))); });
+const C = 'bh-chasseur-v3';
+self.addEventListener('install', (e) => { self.skipWaiting(); e.waitUntil(caches.open(C).then((c) => c.addAll(['./', 'index.html', 'manifest.webmanifest', 'icon-192.png', 'analyse.mjs']))); });
 self.addEventListener('activate', (e) => e.waitUntil(self.clients.claim()));
 self.addEventListener('fetch', (e) => {
   const u = new URL(e.request.url);

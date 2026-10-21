@@ -20,7 +20,7 @@ header{background:var(--bleu);color:#fff;padding:calc(12px + env(safe-area-inset
 .logo::after{content:"";position:absolute;left:6px;right:6px;bottom:5px;height:3px;background:var(--orange);border-radius:2px}
 h1{font-size:17px;margin:0;letter-spacing:.5px}h1 small{display:block;font-weight:400;font-size:11px;opacity:.75;letter-spacing:0}
 .tabs{display:flex;gap:6px;margin-top:10px}
-.tabs button{flex:1;border:0;border-radius:8px;padding:8px;background:rgba(255,255,255,.12);color:#fff;font-weight:600;font-size:13px}
+.tabs button{flex:1;border:0;border-radius:8px;padding:8px 4px;background:rgba(255,255,255,.12);color:#fff;font-weight:600;font-size:13px}
 .tabs button.on{background:var(--orange)}
 main{padding:12px 16px 90px;max-width:760px;margin:0 auto}
 .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:10px}
@@ -57,12 +57,23 @@ select.chip{appearance:none}
 .btn{display:block;text-align:center;background:var(--orange);color:#fff!important;text-decoration:none;border-radius:10px;padding:12px;font-weight:700;margin:8px 0}
 .btn.s{background:var(--bleu)}
 .detail{font-size:12px;color:var(--txt2);padding:0 10px 8px}
+.cible{background:var(--carte);border:1px solid var(--bord);border-radius:12px;padding:10px 12px;margin-bottom:10px}
+.cible .l1{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.cible b{font-size:15px}.cible .sous{margin-top:2px}
+.cible .px{font-size:13px;margin:6px 0}
+.cible .px strong{color:var(--orange);font-size:16px}
+.cible .bt{display:flex;gap:8px}.cible .bt a{flex:1;text-align:center;background:var(--orange);color:#fff;text-decoration:none;border-radius:8px;padding:9px;font-weight:700;font-size:13px}
+.cible .bt button{border:1px solid var(--bord);background:none;color:var(--txt2);border-radius:8px;padding:9px 12px}
+.form{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.form input,.form select{width:100%;padding:9px;border:1px solid var(--bord);border-radius:8px;background:var(--fond);color:var(--txt);font-size:14px}
+.form .full{grid-column:1/-1}
+.form button{grid-column:1/-1;background:var(--bleu);color:#fff;border:0;border-radius:8px;padding:11px;font-weight:700}
 </style>
 </head>
 <body>
 <header>
   <div class="top"><div class="logo">BH</div><h1>BH CHASSEUR<small>Enchères judiciaires & VO · BH AUTOSELECT</small></h1></div>
-  <div class="tabs"><button data-t="lots" class="on">Annonces</button><button data-t="favs">★ Suivies</button><button data-t="aide">Réglages</button></div>
+  <div class="tabs"><button data-t="lots" class="on">Annonces</button><button data-t="lbc">Leboncoin</button><button data-t="favs">★ Suivies</button><button data-t="aide">Réglages</button></div>
 </header>
 <main id="app"><p class="vide">Chargement…</p></main>
 <script>
@@ -100,13 +111,14 @@ function carte(l0) {
  </article>`;
 }
 function filtrer() {
-  let L = data.lots.filter((l) => (!f.ba || l.bonneAffaire || (lbc[l.id] && margeDe(l) >= (data.reglages?.margeMinBonneAffaire || 700))) && (!f.jud || l.judiciaire) && (!f.zone || l.dansZone) && (f.src === 'toutes' || l.source === f.src) && (!l.prixProbable || l.prixProbable <= f.prixMax));
+  let L = data.lots.filter((l) => (!f.ba || l.bonneAffaire || (lbc[l.id] && margeDe(l) >= R().margeMinBonneAffaire)) && (!f.jud || l.judiciaire) && (!f.zone || l.dansZone) && (f.src === 'toutes' || l.source === f.src) && (!l.prixProbable || l.prixProbable <= f.prixMax));
   const t = { marge: (a, b) => (margeDe(b) ?? -1e9) - (margeDe(a) ?? -1e9), date: (a, b) => (a.dateVente || '9') < (b.dateVente || '9') ? -1 : 1, prix: (a, b) => (a.coutTotal ?? 1e9) - (b.coutTotal ?? 1e9), nouveau: (a, b) => (b.premiereVue || '') > (a.premiereVue || '') ? 1 : -1 };
   return L.sort(t[f.tri]);
 }
 function rendre() {
   const app = $('#app');
   if (onglet === 'aide') return rendreAide();
+  if (onglet === 'lbc') return rendreLbc();
   const sources = [...new Set(data.lots.map((l) => l.source))];
   const L = onglet === 'favs' ? data.lots.filter((l) => favs[l.id]) : filtrer();
   const nb = data.lots.filter((l) => l.bonneAffaire).length, nj = data.lots.filter((l) => l.judiciaire).length;
@@ -118,37 +130,194 @@ function rendre() {
    <button class="chip ${f.zone ? 'on' : ''}" data-f="zone">Ma zone</button>
    <select class="chip" data-s="src"><option value="toutes">Toutes sources</option>${sources.map((s) => `<option ${f.src === s ? 'selected' : ''}>${esc(s)}</option>`).join('')}</select>
    <select class="chip" data-s="tri">${[['marge', 'Tri : marge'], ['date', 'Tri : date de vente'], ['prix', 'Tri : prix'], ['nouveau', 'Tri : nouveautés']].map(([v, t]) => `<option value="${v}" ${f.tri === v ? 'selected' : ''}>${t}</option>`).join('')}</select>
-   <select class="chip" data-s="prixMax">${[1500, 2500, 3500, 5000, 8000].map((v) => `<option value="${v}" ${+f.prixMax === v ? 'selected' : ''}>≤ ${v.toLocaleString('fr-FR')} €</option>`).join('')}</select>
+   <select class="chip" data-s="prixMax">${[...new Set([1500, 2500, 3500, 5000, 8000, +R().prixMaxAchat])].sort((a, b) => a - b).map((v) => `<option value="${v}" ${+f.prixMax === v ? 'selected' : ''}>≤ ${v.toLocaleString('fr-FR')} €</option>`).join('')}</select>
   </div>` : ''}
   <p class="maj">${data.miseAJour ? 'Mis à jour ' + new Date(data.miseAJour).toLocaleString('fr-FR', { weekday: 'short', day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit' }) : 'Le robot n\'a pas encore tourné.'} · ${L.length} affichée(s)</p>
   ${L.map(carte).join('') || `<p class="vide">${onglet === 'favs' ? 'Touche « ☆ Suivre » sur une annonce pour la retrouver ici.' : 'Aucune annonce avec ces filtres.<br>Essaie d\'enlever « Bonnes affaires » ou « Ma zone ».'}</p>`}`;
 }
-function rendreAide() {
-  const r = data.reglages || {};
+// ---------- Chasse Leboncoin : recherches pré-réglées sous le prix du marché ----------
+const CIBLES_DEFAUT = [
+  ['renault clio', 2012, 2016, 160000, 'diesel'], ['renault clio', 2010, 2015, 150000, 'essence'],
+  ['peugeot 207', 2008, 2012, 160000, 'essence'], ['peugeot 208', 2013, 2017, 150000, 'essence'],
+  ['citroen c3', 2011, 2016, 150000, 'essence'], ['volkswagen polo', 2010, 2015, 160000, 'essence'],
+  ['toyota yaris', 2008, 2014, 180000, 'essence'], ['renault twingo', 2009, 2014, 140000, 'essence'],
+  ['dacia sandero', 2010, 2016, 160000, 'essence'], ['peugeot 308', 2010, 2015, 180000, 'diesel'],
+  ['renault megane', 2010, 2015, 180000, 'diesel'], ['ford fiesta', 2010, 2015, 150000, 'essence'],
+  ['opel corsa', 2010, 2015, 150000, 'essence'], ['citroen c1', 2008, 2014, 140000, 'essence'],
+].map(([modele, aMin, aMax, kmMax, carb]) => ({ modele, aMin, aMax, kmMax, carb }));
+let cibles = store.get('cibles', CIBLES_DEFAUT);
+let remise = store.get('remise', 25);
+const CP = { essence: '1', diesel: '2' };
+function coteCible(c) {
+  if (!window.coteEstimee || !window.detecterMarqueModele) return null;
+  const { marque, modele } = window.detecterMarqueModele(c.modele);
+  const annee = Math.round((c.aMin + c.aMax) / 2), age = Math.max(1, new Date().getFullYear() - annee);
+  const km = Math.min(c.kmMax, age * 13000);
+  return window.coteEstimee({ marque, modele, annee, km, carburant: c.carb });
+}
+function lienCible(c, pMax) {
+  const p = new URLSearchParams({ category: '2', text: c.modele, regdate: `${c.aMin}-${c.aMax}`, mileage: `min-${c.kmMax}` });
+  if (CP[c.carb]) p.set('fuel', CP[c.carb]);
+  if (pMax) p.set('price', `${Math.round(pMax * 0.4 / 50) * 50}-${pMax}`);
+  p.set('sort', 'time'); p.set('order', 'desc');
+  return 'https://www.leboncoin.fr/recherche?' + p.toString();
+}
+function rendreLbc() {
   $('#app').innerHTML = `
-  <div class="aide"><h2>Lancer une recherche maintenant</h2>Le robot passe 3 fois par jour tout seul. Pour forcer un passage :
-   ${repo ? `<a class="btn" href="${repo}/actions/workflows/chasse.yml" target="_blank">Ouvrir le robot sur GitHub</a>puis « Run workflow ». Compte 10 à 20 min.` : '<br><i>(lien disponible une fois l\'appli en ligne sur GitHub)</i>'}</div>
-  <div class="aide"><h2>Réglages actuels</h2>
-   Prix d'achat max : <b>${eur(r.prixMaxAchat)}</b><br>Marge mini « bonne affaire » : <b>${eur(r.margeMinBonneAffaire)}</b><br>Frais fixes par voiture (transport, remise en état) : <b>${eur(r.fraisFixesParVoiture)}</b><br>Départements de retrait : <b>${(r.departementsRetrait || []).join(', ')}</b>
-   ${repo ? `<a class="btn s" href="${repo}/edit/main/config.json" target="_blank">Modifier les réglages</a>` : ''}</div>
+  <div class="aide"><h2>Annonces Leboncoin sous le prix du marché</h2>
+   Chaque bouton ouvre Leboncoin avec les bons filtres (modèle, années, km, carburant) et un <b>prix plafond = cote − ${remise} %</b>, classé du plus récent au plus ancien.<br>
+   <b>Pour être prévenu en premier :</b> dans Leboncoin, ajoute ta zone (ex. Noyon + 100 km), puis touche <b>« Enregistrer la recherche »</b> et active les <b>notifications</b>. Leboncoin t'enverra une alerte dès qu'une annonce sort.<br>
+   <span class="sous">Un prix très bas (moins de 40 % de la cote) est exclu : c'est souvent une arnaque ou une épave.</span>
+   <div class="form" style="margin-top:10px"><label class="full">Remise mini sous la cote : <b>${remise} %</b><input type="range" min="10" max="45" step="5" value="${remise}" data-remise></label></div></div>
+  ${cibles.map((c, i) => { const cote = coteCible(c); const pMax = cote ? Math.round(cote * (1 - remise / 100) / 50) * 50 : null; return `
+   <div class="cible"><div class="l1"><b>${esc(c.modele.toUpperCase())}</b><span class="b">${esc(c.carb)}</span></div>
+    <div class="sous">${c.aMin}–${c.aMax} · ≤ ${(+c.kmMax).toLocaleString('fr-FR')} km</div>
+    <div class="px">Cote ~${eur(cote)} → cherche à <strong>≤ ${eur(pMax)}</strong></div>
+    <div class="bt"><a href="${esc(lienCible(c, pMax))}" target="_blank" rel="noopener">Ouvrir sur Leboncoin</a><button data-delc="${i}">Retirer</button></div></div>`; }).join('')}
+  <div class="aide"><h2>Ajouter une recherche</h2>
+   <form class="form" id="ajout">
+    <input class="full" name="modele" placeholder="Marque + modèle (ex. renault scenic)" required>
+    <input name="aMin" inputmode="numeric" placeholder="Année min" required><input name="aMax" inputmode="numeric" placeholder="Année max" required>
+    <input name="kmMax" inputmode="numeric" placeholder="Km max" required>
+    <select name="carb"><option>essence</option><option>diesel</option><option>hybride</option></select>
+    <button>Ajouter</button></form>
+   <p class="sous" style="margin-top:8px"><a href="#" data-reset>Remettre la liste par défaut</a></p></div>`;
+}
+// ---------- Réglages modifiables dans l'appli ----------
+const DEP_ZONES = {
+  'Autour de Noyon (~150 km)': ['60', '80', '02', '95', '77', '93', '94', '92', '75', '78', '91', '51', '76', '27', '59', '62'],
+  'Hauts-de-France + IDF': ['02', '59', '60', '62', '80', '75', '77', '78', '91', '92', '93', '94', '95'],
+  'Toute la France': [...Array.from({ length: 95 }, (_, i) => String(i + 1).padStart(2, '0')).filter((d) => d !== '20'), '2A', '2B'],
+};
+const REG_DEFAUT = { prixMaxAchat: 5000, margeMinBonneAffaire: 700, fraisFixesParVoiture: 300, fraisAcheteurParDefautPourcent: 14.4, departementsRetrait: DEP_ZONES['Autour de Noyon (~150 km)'], maxAlertesParPassage: 8, sources: { interencheres: true, alcopa: true, domaines: true } };
+let regLocal = store.get('reglages', null);
+let gh = store.get('gh', { token: '' });
+let ghMsg = '';
+const R = () => ({ ...REG_DEFAUT, ...(data.reglages || {}), ...(regLocal || {}) });
+const ghRepo = (() => { const m = location.hostname.match(/^([^.]+)\.github\.io$/); const r = location.pathname.split('/').filter(Boolean)[0]; return m && r ? `${m[1]}/${r}` : null; })();
+function appliquerReglages() {
+  const r = R();
+  for (const l of data.lots) {
+    const pct = l.fraisPct ?? r.fraisAcheteurParDefautPourcent;
+    l.coutTotal = l.prixProbable ? Math.round(l.prixProbable * (1 + pct / 100) + (+r.fraisFixesParVoiture || 0)) : null;
+    l.marge = l.cote && l.coutTotal ? l.cote - l.coutTotal : null;
+    l.dansZone = !l.departement || r.departementsRetrait.includes(l.departement);
+    l.bonneAffaire = !!(l.marge != null && l.marge >= r.margeMinBonneAffaire && l.prixProbable <= r.prixMaxAchat && !l.risque && l.dansZone);
+  }
+}
+async function api(chemin, opts = {}) {
+  const rep = await fetch(`https://api.github.com/repos/${ghRepo}${chemin}`, { ...opts, headers: { Accept: 'application/vnd.github+json', ...(gh.token ? { Authorization: 'Bearer ' + gh.token } : {}), ...(opts.body ? { 'Content-Type': 'application/json' } : {}) } });
+  if (!rep.ok) throw new Error(rep.status === 401 ? 'clé GitHub refusée (expirée ou mal copiée)' : rep.status === 403 || rep.status === 404 ? 'la clé GitHub n\'a pas les bons droits' : 'erreur ' + rep.status);
+  return rep.status === 204 ? null : rep.json();
+}
+async function envoyerReglages() {
+  const actuel = await api('/contents/config.json');
+  const ancien = JSON.parse(decodeURIComponent(escape(atob(actuel.content.replace(/\n/g, '')))));
+  const r = R();
+  const cfg = { ...ancien, prixMaxAchat: r.prixMaxAchat, margeMinBonneAffaire: r.margeMinBonneAffaire, fraisFixesParVoiture: r.fraisFixesParVoiture, fraisAcheteurParDefautPourcent: r.fraisAcheteurParDefautPourcent, departementsRetrait: r.departementsRetrait, maxAlertesParPassage: r.maxAlertesParPassage, sources: r.sources };
+  const texte = JSON.stringify(cfg, null, 2) + '\n';
+  await api('/contents/config.json', { method: 'PUT', body: JSON.stringify({ message: 'Réglages modifiés depuis l\'appli', content: btoa(unescape(encodeURIComponent(texte))), sha: actuel.sha }) });
+}
+async function dernierPassage() {
+  try {
+    const d = await api('/actions/workflows/chasse.yml/runs?per_page=1');
+    const run = d.workflow_runs?.[0]; const el = $('#passage'); if (!run || !el) return;
+    const quandR = new Date(run.created_at).toLocaleString('fr-FR', { weekday: 'short', day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit' });
+    el.innerHTML = run.status !== 'completed' ? `⏳ Recherche en cours (lancée ${quandR})…` : run.conclusion === 'success' ? `✅ Dernier passage réussi : ${quandR}` : `❌ Dernier passage en erreur (${quandR}) : envoie une capture à Claude.`;
+  } catch {}
+}
+function rendreAide() {
+  const r = R(), connecte = !!gh.token && !!ghRepo;
+  const zoneNom = Object.keys(DEP_ZONES).find((k) => DEP_ZONES[k].join() === r.departementsRetrait.join()) || 'perso';
+  $('#app').innerHTML = `
+  <div class="aide"><h2>Lancer une recherche</h2>Le robot passe tout seul 3 fois par jour.
+   <p id="passage" class="sous" style="margin:6px 0"></p>
+   ${connecte ? '<a class="btn" href="#" data-lancer>Lancer une recherche maintenant</a><span class="sous">Les résultats arrivent dans 10 à 20 min.</span>' : '<span class="sous">Connecte GitHub en bas de cette page pour lancer une recherche depuis l\'appli.</span>'}</div>
+  <div class="aide"><h2>Mes réglages</h2>
+   <form class="form" id="reglages">
+    <label>Prix d'achat max (€)<input name="prixMaxAchat" inputmode="numeric" value="${r.prixMaxAchat}"></label>
+    <label>Marge mini « bonne affaire » (€)<input name="margeMinBonneAffaire" inputmode="numeric" value="${r.margeMinBonneAffaire}"></label>
+    <label>Frais fixes par voiture (€)<input name="fraisFixesParVoiture" inputmode="numeric" value="${r.fraisFixesParVoiture}"></label>
+    <label>Frais acheteur par défaut (%)<input name="fraisAcheteurParDefautPourcent" inputmode="decimal" value="${r.fraisAcheteurParDefautPourcent}"></label>
+    <label class="full">Zone de retrait<select name="zone">${Object.keys(DEP_ZONES).map((k) => `<option ${k === zoneNom ? 'selected' : ''}>${k}</option>`).join('')}<option value="perso" ${zoneNom === 'perso' ? 'selected' : ''}>Départements au choix (ci-dessous)</option></select></label>
+    <label class="full">Départements (séparés par des virgules)<input name="deps" value="${r.departementsRetrait.join(', ')}"></label>
+    <label>Alertes max par passage<input name="maxAlertesParPassage" inputmode="numeric" value="${r.maxAlertesParPassage}"></label>
+    <div></div>
+    <label class="full">Sites surveillés</label>
+    ${[['interencheres', 'Interenchères'], ['alcopa', 'Alcopa'], ['domaines', 'Enchères Domaine']].map(([k, n]) => `<label style="display:flex;gap:8px;align-items:center"><input type="checkbox" name="src_${k}" style="width:auto" ${r.sources?.[k] !== false ? 'checked' : ''}>${n}</label>`).join('')}
+    <button>Enregistrer</button>
+   </form>
+   <p class="sous" style="margin-top:8px">${ghMsg || (connecte ? 'Les réglages s\'appliquent tout de suite dans l\'appli et sont envoyés au robot (alertes).' : 'Sans connexion GitHub, les réglages s\'appliquent à l\'affichage, mais pas encore aux alertes du robot.')}</p></div>
+  <div class="aide"><h2>Connexion GitHub ${connecte ? '✅' : '(une seule fois)'}</h2>
+   ${connecte ? `Connecté au dépôt <b>${esc(ghRepo)}</b>. <a href="#" data-deco>Se déconnecter</a>` : `Pour que l'appli puisse modifier le robot, crée une clé d'accès :
+   <ol style="padding-left:18px;margin:6px 0">
+    <li>Ouvre <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">cette page GitHub</a>.</li>
+    <li><b>Token name</b> : <i>BH Chasseur</i> · <b>Expiration</b> : 1 an.</li>
+    <li><b>Repository access</b> : <i>Only select repositories</i> → <b>bh-chasseur</b>.</li>
+    <li><b>Permissions</b> → <b>Contents</b> : <i>Read and write</i>, puis <b>Actions</b> : <i>Read and write</i>.</li>
+    <li><b>Generate token</b>, copie la clé (elle commence par <i>github_pat_</i>) et colle-la ici :</li>
+   </ol>
+   <form class="form" id="connexion"><input class="full" name="token" placeholder="github_pat_…" autocomplete="off"><button>Connecter</button></form>
+   <p class="sous">La clé reste uniquement sur ton téléphone et ne donne accès qu'au dépôt bh-chasseur.</p>`}</div>
   <div class="aide"><h2>Comment lire une annonce</h2>
    <b>Achat estimé</b> = prix d'adjudication probable + frais acheteur + frais fixes.<br>
-   <b>Cote estimée</b> = prix de revente visé, calculé selon le modèle, l'année et les km. C'est une estimation : vérifie toujours avec <b>Comparer Leboncoin</b>.<br>
-   Tape le prix moyen que tu vois sur Leboncoin dans la case : la marge est recalculée (avec −8 % de négociation).<br>
+   <b>Cote estimée</b> = prix de revente visé, calculé selon le modèle, l'année et les km. Vérifie toujours avec <b>Comparer Leboncoin</b>.<br>
+   Tape le prix moyen vu sur Leboncoin dans la case : la marge est recalculée (avec −8 % de négociation).<br>
    <b>⚖ Judiciaire</b> = liquidation, saisie, vente sur décision de justice ou vente de l'État.</div>
-  <div class="aide"><h2>Avant d'enchérir</h2>Vérifie le PV / la fiche d'état, la présence du certificat d'immatriculation et des clés, le CT, et lis les conditions de vente (frais, délai de retrait, paiement). Ajoute le transport si la voiture ne roule pas.</div>`;
+  <div class="aide"><h2>Avant d'enchérir</h2>Vérifie la fiche d'état, la carte grise, les clés et le CT, et lis les conditions de vente (frais, délai de retrait, paiement). Ajoute le transport si la voiture ne roule pas.</div>`;
+  if (ghRepo) dernierPassage();
 }
+document.addEventListener('submit', async (e) => {
+  if (e.target.id === 'reglages') {
+    e.preventDefault();
+    const d = Object.fromEntries(new FormData(e.target)); const n = (v, def) => { const x = parseFloat(String(v).replace(',', '.').replace(/[^\d.]/g, '')); return Number.isFinite(x) ? x : def; };
+    const r = R();
+    const deps = d.zone !== 'perso' && DEP_ZONES[d.zone] ? DEP_ZONES[d.zone] : String(d.deps).split(/[,\s;]+/).map((x) => x.trim().toUpperCase()).filter((x) => /^(\d{2}|2A|2B|97\d)$/.test(x)).map((x) => x.padStart(2, '0'));
+    regLocal = { prixMaxAchat: n(d.prixMaxAchat, r.prixMaxAchat), margeMinBonneAffaire: n(d.margeMinBonneAffaire, r.margeMinBonneAffaire), fraisFixesParVoiture: n(d.fraisFixesParVoiture, r.fraisFixesParVoiture), fraisAcheteurParDefautPourcent: n(d.fraisAcheteurParDefautPourcent, r.fraisAcheteurParDefautPourcent), departementsRetrait: deps.length ? deps : r.departementsRetrait, maxAlertesParPassage: Math.round(n(d.maxAlertesParPassage, r.maxAlertesParPassage)), sources: { interencheres: !!d.src_interencheres, alcopa: !!d.src_alcopa, domaines: !!d.src_domaines } };
+    store.set('reglages', regLocal); f.prixMax = regLocal.prixMaxAchat; store.set('filtres', f); appliquerReglages();
+    if (gh.token && ghRepo) { ghMsg = '⏳ Envoi au robot…'; rendre(); try { await envoyerReglages(); ghMsg = '✅ Réglages enregistrés et envoyés au robot.'; } catch (err) { ghMsg = '❌ Enregistré sur le téléphone, mais pas envoyé au robot : ' + err.message; } }
+    else ghMsg = '✅ Réglages enregistrés sur le téléphone.';
+    rendre(); return;
+  }
+  if (e.target.id === 'connexion') {
+    e.preventDefault();
+    const t = String(new FormData(e.target).get('token') || '').trim(); if (!t) return;
+    if (!ghRepo) { ghMsg = 'Ouvre l\'appli depuis son adresse github.io pour connecter GitHub.'; rendre(); return; }
+    gh = { token: t };
+    try { const rr = await api(''); if (!rr.permissions?.push) throw new Error('la clé n\'a pas le droit d\'écrire (Contents : Read and write)'); store.set('gh', gh); ghMsg = '✅ GitHub connecté.'; }
+    catch (err) { gh = { token: '' }; ghMsg = '❌ Connexion impossible : ' + err.message; }
+    rendre();
+  }
+});
 document.addEventListener('click', (e) => {
   const t = e.target.closest('[data-t]'); if (t) { onglet = t.dataset.t; document.querySelectorAll('.tabs button').forEach((b) => b.classList.toggle('on', b === t)); rendre(); window.scrollTo(0, 0); return; }
   const c = e.target.closest('[data-f]'); if (c) { f[c.dataset.f] = !f[c.dataset.f]; store.set('filtres', f); rendre(); return; }
+  const dc = e.target.closest('[data-delc]'); if (dc) { cibles.splice(+dc.dataset.delc, 1); store.set('cibles', cibles); rendre(); return; }
+  if (e.target.closest('[data-reset]')) { e.preventDefault(); cibles = CIBLES_DEFAUT.slice(); store.set('cibles', cibles); rendre(); return; }
+  if (e.target.closest('[data-lancer]')) { e.preventDefault(); (async () => { const el = $('#passage'); try { await api('/actions/workflows/chasse.yml/dispatches', { method: 'POST', body: JSON.stringify({ ref: 'main' }) }); if (el) el.textContent = '⏳ Recherche lancée ! Résultats dans 10 à 20 min.'; setTimeout(dernierPassage, 8000); } catch (err) { if (el) el.textContent = '❌ ' + err.message; } })(); return; }
+  if (e.target.closest('[data-deco]')) { e.preventDefault(); gh = { token: '' }; store.set('gh', gh); ghMsg = ''; rendre(); return; }
   const fv = e.target.closest('[data-fav]'); if (fv) { const id = fv.dataset.fav; favs[id] ? delete favs[id] : (favs[id] = 1); store.set('favs', favs); rendre(); }
 });
+document.addEventListener('submit', (e) => {
+  if (e.target.id !== 'ajout') return; e.preventDefault();
+  const d = Object.fromEntries(new FormData(e.target)); const n = (v) => parseInt(String(v).replace(/\D/g, ''), 10);
+  const c = { modele: d.modele.trim().toLowerCase(), aMin: n(d.aMin), aMax: n(d.aMax), kmMax: n(d.kmMax), carb: d.carb };
+  if (!c.modele || !c.aMin || !c.aMax || !c.kmMax) return;
+  if (c.aMin > c.aMax) [c.aMin, c.aMax] = [c.aMax, c.aMin];
+  cibles.unshift(c); store.set('cibles', cibles); rendre();
+});
+document.addEventListener('input', (e) => { const r = e.target.closest('[data-remise]'); if (r) { remise = +r.value; store.set('remise', remise); rendre(); } });
 document.addEventListener('change', (e) => {
   const s = e.target.closest('[data-s]'); if (s) { f[s.dataset.s] = s.dataset.s === 'prixMax' ? +s.value : s.value; store.set('filtres', f); rendre(); return; }
   const i = e.target.closest('[data-lbc]'); if (i) { const v = parseInt(i.value.replace(/\D/g, ''), 10); v ? (lbc[i.dataset.lbc] = v) : delete lbc[i.dataset.lbc]; store.set('lbc', lbc); rendre(); }
 });
-fetch('data/lots.json?t=' + Date.now()).then((r) => r.json()).then((d) => { data = d; f.prixMax = f.prixMax || d.reglages?.prixMaxAchat || 5000; rendre(); }).catch(() => { $('#app').innerHTML = '<p class="vide">Pas encore de résultats.<br>Lance le robot depuis l\'onglet Réglages.</p>'; });
+fetch('data/lots.json?t=' + Date.now()).then((r) => r.json()).then((d) => { data = d; appliquerReglages(); f.prixMax = f.prixMax || R().prixMaxAchat; rendre(); }).catch(() => { $('#app').innerHTML = '<p class="vide">Pas encore de résultats.<br>Lance le robot depuis l\'onglet Réglages.</p>'; });
 if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});
+</script>
+<script type="module">
+import { coteEstimee, detecterMarqueModele } from './analyse.mjs';
+window.coteEstimee = coteEstimee; window.detecterMarqueModele = detecterMarqueModele;
+if (typeof onglet !== 'undefined' && onglet === 'lbc') rendre();
 </script>
 </body>
 </html>
