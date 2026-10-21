@@ -1,5 +1,5 @@
 {
- "date": "2026-10-21T23:15:10.794Z",
+ "date": "2026-10-21T23:31:27.099Z",
  "sources": [
   {
    "source": "Interenchères",
@@ -152,8 +152,8 @@
    "api": [
     "https://www.interencheres.com/_nuxt/manifest.6b48bc17-25f54207.json",
     "https://assets.interencheres.com/asgard/json/alerts.json",
-    "https://logbrowser.prod-indb.io/v1/log",
     "https://search.interencheres.com/v1/search/ie4_sales?filters%5Bdatetime_range%5D=2026-10-22%2C2026-10-22&filters%5Bhas_ended%5D=not%3A1&filters%5Bif_classic_datetime_gt%5D=now%2B1",
+    "https://logbrowser.prod-indb.io/v1/log",
     "https://m.stripe.com/6"
    ]
   },
@@ -495,48 +495,48 @@
     "https://encheres-domaine.gouv.fr/lot/helicopteres-ec-145-9013.html"
    ],
    "api": [
-    "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+getCategories%7BcategoryList%28filters%3A%7Bids%3A%7Bin%3A%5B%222%22%5D%7D%7D%29%7Buid+children%7Buid+children%7Buid+breadcrumbs%7",
     "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+getLocale%7BstoreConfig%7Bstore_code+locale+__typename%7D%7D&operationName=getLocale&variables=%7B%7D",
     "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+storeConfig%7BstoreConfig%7Bbidding_caps+didomi_active+didomi_api_key+didomi_notice_id+eulerian_active+eulerian_tracking_domain+gr",
+    "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+getCategories%7BcategoryList%28filters%3A%7Bids%3A%7Bin%3A%5B%222%22%5D%7D%7D%29%7Buid+children%7Buid+children%7Buid+breadcrumbs%7",
     "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+getCavList%7BgetCavList%7Bdnid_cav_id+cav_name+cav_status+__typename%7D%7D&operationName=getCavList&variables=%7B%7D",
     "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+SliderList%7BsliderList%7Bitems%7Bid+title+description+image_url_path+style+cta_link+cta_label+order+__typename%7Dtotal_count+erro",
-    "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+getCategories%7BcategoryList%28filters%3A%7Bids%3A%7Bin%3A%5B%222%22%5D%7D%7D%29%7Buid+children%7Buid+children%7Buid+breadcrumbs%7",
-    "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+getLocale%7BstoreConfig%7Bstore_code+locale+__typename%7D%7D&operationName=getLocale&variables=%7B%7D",
-    "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+storeConfig%7BstoreConfig%7Bbidding_caps+didomi_active+didomi_api_key+didomi_notice_id+eulerian_active+eulerian_tracking_domain+gr",
-    "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+getCavList%7BgetCavList%7Bdnid_cav_id+cav_name+cav_status+__typename%7D%7D&operationName=getCavList&variables=%7B%7D",
-    "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+storeConfig%7BstoreConfig%7Bbidding_caps+didomi_active+didomi_api_key+didomi_notice_id+eulerian_active+eulerian_tracking_domain+gr",
-    "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+getCavList%7BgetCavList%7Bdnid_cav_id+cav_name+cav_status+__typename%7D%7D&operationName=getCavList&variables=%7B%7D",
-    "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+getLocale%7BstoreConfig%7Bstore_code+locale+__typename%7D%7D&operationName=getLocale&variables=%7B%7D",
-    "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+getCategories%7BcategoryList%28filters%3A%7Bids%3A%7Bin%3A%5B%222%22%5D%7D%7D%29%7Buid+children%7Buid+children%7Buid+breadcrumbs%7",
-    "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+getCategories%7BcategoryList%28filters%3A%7Bids%3A%7Bin%3A%5B%222%22%5D%7D%7D%29%7Buid+children%7Buid+children%7Buid+breadcrumbs%7",
-    "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+getLocale%7BstoreConfig%7Bstore_code+locale+__typename%7D%7D&operationName=getLocale&variables=%7B%7D",
-    "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+storeConfig%7BstoreConfig%7Bbidding_caps+didomi_active+didomi_api_key+didomi_notice_id+eulerian_active+eulerian_tracking_domain+gr",
-    "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+getCavList%7BgetCavList%7Bdnid_cav_id+cav_name+cav_status+__typename%7D%7D&operationName=getCavList&variables=%7B%7D",
-    "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+ResolveURL%28%24url%3AString%21%29%7Broute%28url%3A%24url%29%7Brelative_url+redirect_code+type+...on+CmsPage%7Bidentifier+__typena",
-    "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+getCategoryLots%28%24currentPage%3AInt%24filter%3AProductAttributeFilterInput%21%24pageSize%3AInt%24sort%3AProductAttributeSortInp",
-    "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+storeConfig%7BstoreConfig%7Bbidding_caps+didomi_active+didomi_api_key+didomi_notice_id+eulerian_active+eulerian_tracking_domain+gr",
-    "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+getCavList%7BgetCavList%7Bdnid_cav_id+cav_name+cav_status+__typename%7D%7D&operationName=getCavList&variables=%7B%7D",
-    "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+getCategories%7BcategoryList%28filters%3A%7Bids%3A%7Bin%3A%5B%222%22%5D%7D%7D%29%7Buid+children%7Buid+children%7Buid+breadcrumbs%7",
-    "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+getLocale%7BstoreConfig%7Bstore_code+locale+__typename%7D%7D&operationName=getLocale&variables=%7B%7D",
-    "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+ResolveURL%28%24url%3AString%21%29%7Broute%28url%3A%24url%29%7Brelative_url+redirect_code+type+...on+CmsPage%7Bidentifier+__typena",
-    "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+getCategoryLots%28%24currentPage%3AInt%24filter%3AProductAttributeFilterInput%21%24pageSize%3AInt%24sort%3AProductAttributeSortInp",
-    "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+getCavList%7BgetCavList%7Bdnid_cav_id+cav_name+cav_status+__typename%7D%7D&operationName=getCavList&variables=%7B%7D",
     "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+storeConfig%7BstoreConfig%7Bbidding_caps+didomi_active+didomi_api_key+didomi_notice_id+eulerian_active+eulerian_tracking_domain+gr",
     "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+getLocale%7BstoreConfig%7Bstore_code+locale+__typename%7D%7D&operationName=getLocale&variables=%7B%7D",
-    "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+getCategories%7BcategoryList%28filters%3A%7Bids%3A%7Bin%3A%5B%222%22%5D%7D%7D%29%7Buid+children%7Buid+children%7Buid+breadcrumbs%7",
-    "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+ResolveURL%28%24url%3AString%21%29%7Broute%28url%3A%24url%29%7Brelative_url+redirect_code+type+...on+CmsPage%7Bidentifier+__typena",
-    "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+getCategoryLots%28%24currentPage%3AInt%24filter%3AProductAttributeFilterInput%21%24pageSize%3AInt%24sort%3AProductAttributeSortInp",
+    "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+getCavList%7BgetCavList%7Bdnid_cav_id+cav_name+cav_status+__typename%7D%7D&operationName=getCavList&variables=%7B%7D",
     "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+getCategories%7BcategoryList%28filters%3A%7Bids%3A%7Bin%3A%5B%222%22%5D%7D%7D%29%7Buid+children%7Buid+children%7Buid+breadcrumbs%7",
     "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+getCavList%7BgetCavList%7Bdnid_cav_id+cav_name+cav_status+__typename%7D%7D&operationName=getCavList&variables=%7B%7D",
+    "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+getCategories%7BcategoryList%28filters%3A%7Bids%3A%7Bin%3A%5B%222%22%5D%7D%7D%29%7Buid+children%7Buid+children%7Buid+breadcrumbs%7",
+    "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+storeConfig%7BstoreConfig%7Bbidding_caps+didomi_active+didomi_api_key+didomi_notice_id+eulerian_active+eulerian_tracking_domain+gr",
+    "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+getLocale%7BstoreConfig%7Bstore_code+locale+__typename%7D%7D&operationName=getLocale&variables=%7B%7D",
+    "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+getCavList%7BgetCavList%7Bdnid_cav_id+cav_name+cav_status+__typename%7D%7D&operationName=getCavList&variables=%7B%7D",
+    "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+getCategories%7BcategoryList%28filters%3A%7Bids%3A%7Bin%3A%5B%222%22%5D%7D%7D%29%7Buid+children%7Buid+children%7Buid+breadcrumbs%7",
     "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+storeConfig%7BstoreConfig%7Bbidding_caps+didomi_active+didomi_api_key+didomi_notice_id+eulerian_active+eulerian_tracking_domain+gr",
     "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+ResolveURL%28%24url%3AString%21%29%7Broute%28url%3A%24url%29%7Brelative_url+redirect_code+type+...on+CmsPage%7Bidentifier+__typena",
     "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+getLocale%7BstoreConfig%7Bstore_code+locale+__typename%7D%7D&operationName=getLocale&variables=%7B%7D",
     "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+getCategoryLots%28%24currentPage%3AInt%24filter%3AProductAttributeFilterInput%21%24pageSize%3AInt%24sort%3AProductAttributeSortInp",
+    "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+getCavList%7BgetCavList%7Bdnid_cav_id+cav_name+cav_status+__typename%7D%7D&operationName=getCavList&variables=%7B%7D",
     "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+getCategories%7BcategoryList%28filters%3A%7Bids%3A%7Bin%3A%5B%222%22%5D%7D%7D%29%7Buid+children%7Buid+children%7Buid+breadcrumbs%7",
+    "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+storeConfig%7BstoreConfig%7Bbidding_caps+didomi_active+didomi_api_key+didomi_notice_id+eulerian_active+eulerian_tracking_domain+gr",
+    "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+ResolveURL%28%24url%3AString%21%29%7Broute%28url%3A%24url%29%7Brelative_url+redirect_code+type+...on+CmsPage%7Bidentifier+__typena",
     "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+getLocale%7BstoreConfig%7Bstore_code+locale+__typename%7D%7D&operationName=getLocale&variables=%7B%7D",
-    "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+storeConfig%7BstoreConfig%7Bbidding_caps+didomi_active+didomi_api_key+didomi_notice_id+eulerian_active+eulerian_tracking_domain+gr"
+    "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+getCategoryLots%28%24currentPage%3AInt%24filter%3AProductAttributeFilterInput%21%24pageSize%3AInt%24sort%3AProductAttributeSortInp",
+    "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+getLocale%7BstoreConfig%7Bstore_code+locale+__typename%7D%7D&operationName=getLocale&variables=%7B%7D",
+    "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+getCavList%7BgetCavList%7Bdnid_cav_id+cav_name+cav_status+__typename%7D%7D&operationName=getCavList&variables=%7B%7D",
+    "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+storeConfig%7BstoreConfig%7Bbidding_caps+didomi_active+didomi_api_key+didomi_notice_id+eulerian_active+eulerian_tracking_domain+gr",
+    "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+getCategories%7BcategoryList%28filters%3A%7Bids%3A%7Bin%3A%5B%222%22%5D%7D%7D%29%7Buid+children%7Buid+children%7Buid+breadcrumbs%7",
+    "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+ResolveURL%28%24url%3AString%21%29%7Broute%28url%3A%24url%29%7Brelative_url+redirect_code+type+...on+CmsPage%7Bidentifier+__typena",
+    "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+getCategoryLots%28%24currentPage%3AInt%24filter%3AProductAttributeFilterInput%21%24pageSize%3AInt%24sort%3AProductAttributeSortInp",
+    "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+getCategories%7BcategoryList%28filters%3A%7Bids%3A%7Bin%3A%5B%222%22%5D%7D%7D%29%7Buid+children%7Buid+children%7Buid+breadcrumbs%7",
+    "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+getCavList%7BgetCavList%7Bdnid_cav_id+cav_name+cav_status+__typename%7D%7D&operationName=getCavList&variables=%7B%7D",
+    "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+storeConfig%7BstoreConfig%7Bbidding_caps+didomi_active+didomi_api_key+didomi_notice_id+eulerian_active+eulerian_tracking_domain+gr",
+    "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+ResolveURL%28%24url%3AString%21%29%7Broute%28url%3A%24url%29%7Brelative_url+redirect_code+type+...on+CmsPage%7Bidentifier+__typena",
+    "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+getLocale%7BstoreConfig%7Bstore_code+locale+__typename%7D%7D&operationName=getLocale&variables=%7B%7D",
+    "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+getCategoryLots%28%24currentPage%3AInt%24filter%3AProductAttributeFilterInput%21%24pageSize%3AInt%24sort%3AProductAttributeSortInp",
+    "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+getCategories%7BcategoryList%28filters%3A%7Bids%3A%7Bin%3A%5B%222%22%5D%7D%7D%29%7Buid+children%7Buid+children%7Buid+breadcrumbs%7",
+    "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+storeConfig%7BstoreConfig%7Bbidding_caps+didomi_active+didomi_api_key+didomi_notice_id+eulerian_active+eulerian_tracking_domain+gr",
+    "https://encheres-domaine.gouv.fr/gateway/magento/graphql/?query=query+getLocale%7BstoreConfig%7Bstore_code+locale+__typename%7D%7D&operationName=getLocale&variables=%7B%7D"
    ]
   }
  ],
- "dureeMinutes": 6.7
+ "dureeMinutes": 6.9
 }
