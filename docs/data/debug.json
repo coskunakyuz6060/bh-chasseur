@@ -1,5 +1,5 @@
 {
- "date": "2026-10-22T12:34:44.108Z",
+ "date": "2026-10-22T12:54:53.941Z",
  "sources": [
   {
    "source": "Interenchères",
@@ -40,12 +40,12 @@
      "titre": "Un instant…"
     },
     {
-     "url": "https://www.interencheres.com/vehicules/vente-vehicules-utilitaires-particuliers-690837?universe=vehicles",
+     "url": "https://www.interencheres.com/vehicules/vehicules-licence-iv-materiel-professionnel-690262?universe=vehicles",
      "statut": "ok",
      "titre": "Un instant…"
     },
     {
-     "url": "https://www.interencheres.com/vehicules/vehicules-licence-iv-materiel-professionnel-690262?universe=vehicles",
+     "url": "https://www.interencheres.com/vehicules/vente-du-conseil-general-du-pas-de-calais-690502?universe=vehicles",
      "statut": "ok",
      "titre": "Un instant…"
     },
@@ -143,8 +143,8 @@
     "https://www.interencheres.com/calendrier?datetime_range=2026-10-22,2026-10-22&universe=vehicles",
     "https://www.interencheres.com/vehicules/lyon-vehicules-de-tourisme-utilitaires-divers-frais-de-vente-inclus-691623?universe=vehicles",
     "https://www.interencheres.com/biens-equipement/vente-judiciaires-vehiucles-maconnerie-paysagiste-691239?universe=vehicles",
-    "https://www.interencheres.com/vehicules/vente-vehicules-utilitaires-particuliers-690837?universe=vehicles",
     "https://www.interencheres.com/vehicules/vehicules-licence-iv-materiel-professionnel-690262?universe=vehicles",
+    "https://www.interencheres.com/vehicules/vente-du-conseil-general-du-pas-de-calais-690502?universe=vehicles",
     "https://magazine.interencheres.com/vehicules/pierre-drouin-un-commissaire-priseur-qui-democratise-les-ventes-aux-encheres-de-vehicules/",
     "https://magazine.interencheres.com/art-mobilier/thierry-pomez-cest-a-troyes-qua-eu-lieu-la-premiere-vente-aux-encheres-par-telephone/",
     "https://magazine.interencheres.com/art-mobilier/la-commissaire-priseur-mathilde-vaupres-devoile-les-coulisses-de-ses-ventes-de-souvenirs-et-vehicules-militaires/",
