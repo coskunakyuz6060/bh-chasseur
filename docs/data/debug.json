@@ -1,5 +1,5 @@
 {
- "date": "2026-10-22T06:34:13.403Z",
+ "date": "2026-10-22T12:34:44.108Z",
  "sources": [
   {
    "source": "Interenchères",
@@ -35,12 +35,17 @@
      "titre": "Un instant…"
     },
     {
-     "url": "https://www.interencheres.com/vehicules/vehicules-particuliers-et-utilitaires-apres-liquidation-judiciaire-vente-a-la-requete-de-maison-de-credit-et-apres-succession-691717?universe=vehicles",
+     "url": "https://www.interencheres.com/vehicules/lyon-vehicules-de-tourisme-utilitaires-divers-frais-de-vente-inclus-691623?universe=vehicles",
      "statut": "ok",
      "titre": "Un instant…"
     },
     {
-     "url": "https://www.interencheres.com/vehicules/vente-de-vehicules-et-materiels-uniquement-en-live-691436?universe=vehicles",
+     "url": "https://www.interencheres.com/vehicules/vente-vehicules-utilitaires-particuliers-690837?universe=vehicles",
+     "statut": "ok",
+     "titre": "Un instant…"
+    },
+    {
+     "url": "https://www.interencheres.com/vehicules/vehicules-licence-iv-materiel-professionnel-690262?universe=vehicles",
      "statut": "ok",
      "titre": "Un instant…"
     },
@@ -65,17 +70,17 @@
      "titre": "Un instant…"
     },
     {
+     "url": "https://www.interencheres.com/vehicules/vente-vehicules-et-materiels-liquidation-judiciaire-leasing-volontaire-691032/lot-89299294.html?universe=vehicles",
+     "statut": "ok",
+     "titre": "Un instant…"
+    },
+    {
      "url": "https://www.interencheres.com/vehicules/vehicules-et-motos-de-sport-et-de-collection-685746/lot-88310751.html?universe=vehicles",
      "statut": "ok",
      "titre": "Un instant…"
     },
     {
-     "url": "https://www.interencheres.com/vehicules/vente-de-vehicules-et-materiels-uniquement-en-live-691436/lot-89296182.html?universe=vehicles",
-     "statut": "ok",
-     "titre": "Un instant…"
-    },
-    {
-     "url": "https://www.interencheres.com/vehicules/vente-vehicules-et-materiels-liquidation-judiciaire-leasing-volontaire-691032/lot-89299294.html?universe=vehicles",
+     "url": "https://www.interencheres.com/vehicules/vente-vehicules-et-materiels-liquidation-judiciaire-leasing-volontaire-691032/lot-89259784.html?universe=vehicles",
      "statut": "ok",
      "titre": "Un instant…"
     },
@@ -129,17 +134,17 @@
     "https://www.interencheres.com/biens-equipement/vehicules-mecanique-et-accessoires?universe=vehicles",
     "https://www.interencheres.com/vehicules/vehicules-et-motos-de-sport-et-de-collection-685746/lot-88167488.html?universe=vehicles",
     "https://www.interencheres.com/vehicules/vehicules-et-motos-de-sport-et-de-collection-685746/lot-88246303.html?universe=vehicles",
-    "https://www.interencheres.com/vehicules/vehicules-et-motos-de-sport-et-de-collection-685746/lot-88732598.html?universe=vehicles",
     "https://www.interencheres.com/vehicules/vehicules-licence-iv-et-materiels-suite-a-liquidations-judiciaires-689774/lot-89336858.html?universe=vehicles",
+    "https://www.interencheres.com/vehicules/vehicules-et-motos-de-sport-et-de-collection-685746/lot-88732598.html?universe=vehicles",
     "https://www.interencheres.com/vehicules/vehicules-utilitaires-camion-ampliroll-bateaux-mini-pelle-materiel-manutention-materiel-batiment-informatique-alcools-et-stocks-680861/lot-88937296.html?universe=vehicles",
-    "https://www.interencheres.com/vehicules/vehicules-et-motos-de-sport-et-de-collection-685746/lot-88310751.html?universe=vehicles",
-    "https://www.interencheres.com/vehicules/vente-de-vehicules-et-materiels-uniquement-en-live-691436/lot-89296182.html?universe=vehicles",
     "https://www.interencheres.com/vehicules/vente-vehicules-et-materiels-liquidation-judiciaire-leasing-volontaire-691032/lot-89299294.html?universe=vehicles",
+    "https://www.interencheres.com/vehicules/vehicules-et-motos-de-sport-et-de-collection-685746/lot-88310751.html?universe=vehicles",
+    "https://www.interencheres.com/vehicules/vente-vehicules-et-materiels-liquidation-judiciaire-leasing-volontaire-691032/lot-89259784.html?universe=vehicles",
     "https://www.interencheres.com/calendrier?datetime_range=2026-10-22,2026-10-22&universe=vehicles",
-    "https://www.interencheres.com/vehicules/vehicules-particuliers-et-utilitaires-apres-liquidation-judiciaire-vente-a-la-requete-de-maison-de-credit-et-apres-succession-691717?universe=vehicles",
-    "https://www.interencheres.com/biens-equipement/lj-vildieu-pere-et-fils-691460?universe=vehicles",
-    "https://www.interencheres.com/vehicules/vente-de-vehicules-et-materiels-uniquement-en-live-691436?universe=vehicles",
-    "https://www.interencheres.com/vehicules/grande-vente-en-ht-avec-tva-recuperable-a-vendeville-59-vehicules-industriels-engins-de-chantier-engins-de-manutention-et-levage-equipements-et-outillages-btp-remorques-690138?universe=vehicles",
+    "https://www.interencheres.com/vehicules/lyon-vehicules-de-tourisme-utilitaires-divers-frais-de-vente-inclus-691623?universe=vehicles",
+    "https://www.interencheres.com/biens-equipement/vente-judiciaires-vehiucles-maconnerie-paysagiste-691239?universe=vehicles",
+    "https://www.interencheres.com/vehicules/vente-vehicules-utilitaires-particuliers-690837?universe=vehicles",
+    "https://www.interencheres.com/vehicules/vehicules-licence-iv-materiel-professionnel-690262?universe=vehicles",
     "https://magazine.interencheres.com/vehicules/pierre-drouin-un-commissaire-priseur-qui-democratise-les-ventes-aux-encheres-de-vehicules/",
     "https://magazine.interencheres.com/art-mobilier/thierry-pomez-cest-a-troyes-qua-eu-lieu-la-premiere-vente-aux-encheres-par-telephone/",
     "https://magazine.interencheres.com/art-mobilier/la-commissaire-priseur-mathilde-vaupres-devoile-les-coulisses-de-ses-ventes-de-souvenirs-et-vehicules-militaires/",
@@ -153,8 +158,8 @@
     "https://www.interencheres.com/_nuxt/manifest.6b48bc17-25f54207.json",
     "https://assets.interencheres.com/asgard/json/alerts.json",
     "https://search.interencheres.com/v1/search/ie4_sales?filters%5Bdatetime_range%5D=2026-10-22%2C2026-10-22&filters%5Bhas_ended%5D=not%3A1&filters%5Bif_classic_datetime_gt%5D=now%2B1",
-    "https://m.stripe.com/6",
-    "https://logbrowser.prod-indb.io/v1/log"
+    "https://logbrowser.prod-indb.io/v1/log",
+    "https://m.stripe.com/6"
    ]
   },
   {
@@ -197,5 +202,5 @@
    ]
   }
  ],
- "dureeMinutes": 2.6
+ "dureeMinutes": 2.9
 }
