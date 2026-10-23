@@ -1,5 +1,5 @@
 {
- "date": "2026-10-23T06:33:11.498Z",
+ "date": "2026-10-23T12:29:56.117Z",
  "sources": [
   {
    "source": "Interenchères",
@@ -7,12 +7,12 @@
     {
      "url": "https://www.interencheres.com/vehicules/",
      "statut": "ok",
-     "titre": "Un instant…"
+     "titre": "Véhicules | Interencheres.com"
     },
     {
      "url": "https://www.interencheres.com/vehicules/vehicules-particuliers-et-de-loisirs",
      "statut": "ok",
-     "titre": "Interencheres.com"
+     "titre": "Un instant…"
     },
     {
      "url": "https://www.interencheres.com/calendrier?universe=vehicles",
@@ -20,21 +20,79 @@
      "titre": "Un instant…"
     },
     {
-     "url": "https://www.interencheres.com/vehicules/voitures-de-sport-et-de-collection",
+     "url": "https://www.interencheres.com/vehicules/voitures-de-sport-et-de-collection?universe=vehicles",
      "statut": "ok",
      "titre": "Un instant…"
     },
     {
-     "url": "https://www.interencheres.com/vehicules/vehicules-particuliers",
+     "url": "https://www.interencheres.com/vehicules/vehicules-particuliers?universe=vehicles",
+     "statut": "ok",
+     "titre": "Un instant…"
+    },
+    {
+     "url": "https://www.interencheres.com/vehicules/vehicules-professionnels?universe=vehicles",
+     "statut": "ok",
+     "titre": "Un instant…"
+    },
+    {
+     "url": "https://www.interencheres.com/vehicules/vehicule-utilitaire-et-tourisme-alcopa-auction-marseille-688139?universe=vehicles",
+     "statut": "ok",
+     "titre": "Un instant…"
+    },
+    {
+     "url": "https://www.interencheres.com/vehicules/vente-automobile-sur-designation-vehicules-particuliers-et-utilitaires-majoritairement-reservee-aux-professionnels-de-lautomobile-691998?universe=vehicles",
+     "statut": "ok",
+     "titre": "Un instant…"
+    },
+    {
+     "url": "https://www.interencheres.com/vehicules/100-live-vehicules-utilitaires-et-particuliers-691010?universe=vehicles",
+     "statut": "ok",
+     "titre": "Un instant…"
+    },
+    {
+     "url": "https://www.interencheres.com/vehicules/vente-vehicules-et-materiels-liquidation-judiciaire-leasing-volontaire-691032/lot-89299294.html?universe=vehicles",
+     "statut": "ok",
+     "titre": "Un instant…"
+    },
+    {
+     "url": "https://www.interencheres.com/vehicules/vehicules-et-motos-de-sport-et-de-collection-685746/lot-88167488.html?universe=vehicles",
+     "statut": "ok",
+     "titre": "Un instant…"
+    },
+    {
+     "url": "https://www.interencheres.com/vehicules/vehicules-utilitaires-camion-ampliroll-bateaux-mini-pelle-materiel-manutention-materiel-batiment-informatique-alcools-et-stocks-680861/lot-88937296.html?universe=vehicles",
+     "statut": "ok",
+     "titre": "Un instant…"
+    },
+    {
+     "url": "https://www.interencheres.com/vehicules/vehicules-et-motos-de-sport-et-de-collection-685746/lot-88246303.html?universe=vehicles",
+     "statut": "ok",
+     "titre": "Un instant…"
+    },
+    {
+     "url": "https://www.interencheres.com/vehicules/vehicules-et-motos-de-sport-et-de-collection-685746/lot-88732598.html?universe=vehicles",
+     "statut": "ok",
+     "titre": "Un instant…"
+    },
+    {
+     "url": "https://www.interencheres.com/vehicules/vente-vehicules-et-materiels-liquidation-judiciaire-leasing-volontaire-691032/lot-89259784.html?universe=vehicles",
+     "statut": "ok",
+     "titre": "Un instant…"
+    },
+    {
+     "url": "https://www.interencheres.com/vehicules/vehicules-et-motos-de-sport-et-de-collection-685746/lot-88310751.html?universe=vehicles",
+     "statut": "ok",
+     "titre": "Un instant…"
+    },
+    {
+     "url": "https://www.interencheres.com/vehicules/vente-judiciaire-de-vehicules-690979/lot-89255510.html?universe=vehicles",
      "statut": "ok",
      "titre": "Un instant…"
     }
    ],
-   "lotsTrouves": 0,
+   "lotsTrouves": 8,
    "lotsAnalyses": 0,
    "exemplesLiens": [
-    "https://www.cloudflare.com/?utm_source=challenge&utm_campaign=j",
-    "https://www.cloudflare.com/fr-fr/privacypolicy/",
     "https://www.interencheres.com/",
     "https://www.interencheres.com/premium",
     "https://www.interencheres.com/art-decoration",
@@ -55,31 +113,50 @@
     "https://www.pinterest.fr/interencheres/",
     "https://www.linkedin.com/company/3488560/",
     "https://www.youtube.com/channel/UC4ePh8Ri3Iw_gT8sFuRIg3A",
-    "https://www.interencheres.com/en-US/vehicules/vehicules-particuliers-et-de-loisirs",
+    "https://www.interencheres.com/en-US/vehicules",
     "https://www.interencheres.com/compte/connexion",
     "https://www.interencheres.com/calendrier",
-    "https://static.interencheres.com/v4/legal/INTERNAUTES/CGU_INTERNAUTES_IE.pdf",
-    "https://www.interencheres.com/informations/mentions-legales.html",
-    "https://static.interencheres.com/doc-externe/politique-protection-donnees-personnelles.pdf",
-    "https://www.interencheres.com/informations/presse.html",
-    "https://www.interencheres.com/art-decoration/peintures-et-dessins",
-    "https://www.interencheres.com/art-decoration/mode-et-bijoux",
-    "https://www.interencheres.com/art-decoration/militaria",
-    "https://www.interencheres.com/art-decoration/instruments-de-musique",
-    "https://www.interencheres.com/art-decoration/vin-et-spiritueux",
-    "https://www.interencheres.com/vehicules/voitures-de-sport-et-de-collection",
-    "https://www.interencheres.com/vehicules/vehicules-particuliers",
-    "https://www.interencheres.com/vehicules/motos-et-scooters",
-    "https://www.interencheres.com/biens-equipement/marchandises-neuves-et-stocks",
-    "https://www.interencheres.com/biens-equipement/btp-et-construction",
-    "https://www.interencheres.com/sitemap.html",
-    "https://play.google.com/store/apps/details?id=io.cpm.asgard.android",
-    "https://apps.apple.com/fr/app/interencheres-ench%C3%A8re-en-ligne/id460763851"
+    "https://www.interencheres.com/art-decoration/art?universe=vehicles",
+    "https://www.interencheres.com/art-decoration/decoration-et-mobilier?universe=vehicles",
+    "https://www.interencheres.com/art-decoration/mode-et-bijoux?universe=vehicles",
+    "https://www.interencheres.com/art-decoration/civilisations-et-cultures?universe=vehicles",
+    "https://www.interencheres.com/art-decoration/collections?universe=vehicles",
+    "https://www.interencheres.com/vehicules/voitures-de-sport-et-de-collection?universe=vehicles",
+    "https://www.interencheres.com/vehicules/vehicules-particuliers?universe=vehicles",
+    "https://www.interencheres.com/vehicules/aerien-maritime-et-ferroviaire?universe=vehicles",
+    "https://www.interencheres.com/vehicules/vehicules-professionnels?universe=vehicles",
+    "https://www.interencheres.com/art-decoration/or-et-metaux-precieux?universe=vehicles",
+    "https://www.interencheres.com/biens-equipement/objets-du-quotidien?universe=vehicles",
+    "https://www.interencheres.com/biens-equipement/marchandises-neuves-et-stocks?universe=vehicles",
+    "https://www.interencheres.com/biens-equipement/materiels-professionnels?universe=vehicles",
+    "https://www.interencheres.com/biens-equipement/bien-immateriels?universe=vehicles",
+    "https://www.interencheres.com/biens-equipement/chevaux-elevage-et-nature?universe=vehicles",
+    "https://www.interencheres.com/biens-equipement/vehicules-mecanique-et-accessoires?universe=vehicles",
+    "https://www.interencheres.com/vehicules/vente-vehicules-et-materiels-liquidation-judiciaire-leasing-volontaire-691032/lot-89299294.html?universe=vehicles",
+    "https://www.interencheres.com/vehicules/vehicules-et-motos-de-sport-et-de-collection-685746/lot-88167488.html?universe=vehicles",
+    "https://www.interencheres.com/vehicules/vehicules-utilitaires-camion-ampliroll-bateaux-mini-pelle-materiel-manutention-materiel-batiment-informatique-alcools-et-stocks-680861/lot-88937296.html?universe=vehicles",
+    "https://www.interencheres.com/vehicules/vehicules-et-motos-de-sport-et-de-collection-685746/lot-88246303.html?universe=vehicles",
+    "https://www.interencheres.com/vehicules/vehicules-et-motos-de-sport-et-de-collection-685746/lot-88732598.html?universe=vehicles",
+    "https://www.interencheres.com/vehicules/vente-vehicules-et-materiels-liquidation-judiciaire-leasing-volontaire-691032/lot-89259784.html?universe=vehicles",
+    "https://www.interencheres.com/vehicules/vehicules-et-motos-de-sport-et-de-collection-685746/lot-88310751.html?universe=vehicles",
+    "https://www.interencheres.com/vehicules/vente-judiciaire-de-vehicules-690979/lot-89255510.html?universe=vehicles",
+    "https://www.interencheres.com/calendrier?datetime_range=2026-10-23,2026-10-23&universe=vehicles",
+    "https://www.interencheres.com/vehicules/vehicule-utilitaire-et-tourisme-alcopa-auction-marseille-688139?universe=vehicles",
+    "https://www.interencheres.com/vehicules/vente-automobile-sur-designation-vehicules-particuliers-et-utilitaires-majoritairement-reservee-aux-professionnels-de-lautomobile-691998?universe=vehicles",
+    "https://www.interencheres.com/vehicules/vehicules-utilitaires-camion-ampliroll-bateaux-mini-pelle-materiel-manutention-materiel-batiment-informatique-alcools-et-stocks-680861?universe=vehicles",
+    "https://www.interencheres.com/vehicules/100-live-vehicules-utilitaires-et-particuliers-691010?universe=vehicles",
+    "https://magazine.interencheres.com/vehicules/pierre-drouin-un-commissaire-priseur-qui-democratise-les-ventes-aux-encheres-de-vehicules/",
+    "https://magazine.interencheres.com/art-mobilier/thierry-pomez-cest-a-troyes-qua-eu-lieu-la-premiere-vente-aux-encheres-par-telephone/",
+    "https://magazine.interencheres.com/art-mobilier/la-commissaire-priseur-mathilde-vaupres-devoile-les-coulisses-de-ses-ventes-de-souvenirs-et-vehicules-militaires/",
+    "https://magazine.interencheres.com/coulisses-des-encheres/",
+    "https://www.auction.fr/abonnement/",
+    "https://magazine.interencheres.com/vehicules/camions-pompiers-collection-encheres-beaune/",
+    "https://magazine.interencheres.com/vehicules/maserati-3500-gt-encheres-bordeaux-classic/",
+    "https://magazine.interencheres.com/vehicules/porsche-carrera-gt-encheres-artcurial-paris/"
    ],
    "api": [
     "https://www.interencheres.com/_nuxt/manifest.6b48bc17-25f54207.json",
     "https://assets.interencheres.com/asgard/json/alerts.json",
-    "https://ping.thank-you.io/",
     "https://search.interencheres.com/v1/search/ie4_sales?filters%5Bdatetime_range%5D=2026-10-23%2C2026-10-23&filters%5Bhas_ended%5D=not%3A1&filters%5Bif_classic_datetime_gt%5D=now%2B1",
     "https://logbrowser.prod-indb.io/v1/log",
     "https://m.stripe.com/6"
@@ -125,5 +202,5 @@
    ]
   }
  ],
- "dureeMinutes": 1.3
+ "dureeMinutes": 2.8
 }
