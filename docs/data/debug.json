@@ -1,5 +1,5 @@
 {
- "date": "2026-10-22T17:38:05.313Z",
+ "date": "2026-10-23T06:33:11.498Z",
  "sources": [
   {
    "source": "Interenchères",
@@ -7,15 +7,25 @@
     {
      "url": "https://www.interencheres.com/vehicules/",
      "statut": "ok",
-     "titre": ""
+     "titre": "Un instant…"
     },
     {
      "url": "https://www.interencheres.com/vehicules/vehicules-particuliers-et-de-loisirs",
      "statut": "ok",
-     "titre": "Un instant…"
+     "titre": "Interencheres.com"
     },
     {
      "url": "https://www.interencheres.com/calendrier?universe=vehicles",
+     "statut": "ok",
+     "titre": "Un instant…"
+    },
+    {
+     "url": "https://www.interencheres.com/vehicules/voitures-de-sport-et-de-collection",
+     "statut": "ok",
+     "titre": "Un instant…"
+    },
+    {
+     "url": "https://www.interencheres.com/vehicules/vehicules-particuliers",
      "statut": "ok",
      "titre": "Un instant…"
     }
@@ -24,9 +34,56 @@
    "lotsAnalyses": 0,
    "exemplesLiens": [
     "https://www.cloudflare.com/?utm_source=challenge&utm_campaign=j",
-    "https://www.cloudflare.com/fr-fr/privacypolicy/"
+    "https://www.cloudflare.com/fr-fr/privacypolicy/",
+    "https://www.interencheres.com/",
+    "https://www.interencheres.com/premium",
+    "https://www.interencheres.com/art-decoration",
+    "https://www.interencheres.com/vehicules",
+    "https://www.interencheres.com/biens-equipement",
+    "https://www.interencheres.com/journees-expertises",
+    "https://www.interencheres.com/resultats-ventes",
+    "https://www.interencheres.com/commissaire-priseur",
+    "https://www.interencheres.com/carte-des-encheres",
+    "https://www.interencheres.com/informations/qui-sommes-nous.html",
+    "https://magazine.interencheres.com/",
+    "https://help.interencheres.com/hc/fr",
+    "https://www.interencheres.com/informations/contact.html",
+    "https://partners.interencheres.com/fr/devenir-partenaire",
+    "https://www.facebook.com/interencheres",
+    "https://www.threads.net/@interencheres",
+    "https://www.instagram.com/interencheres/",
+    "https://www.pinterest.fr/interencheres/",
+    "https://www.linkedin.com/company/3488560/",
+    "https://www.youtube.com/channel/UC4ePh8Ri3Iw_gT8sFuRIg3A",
+    "https://www.interencheres.com/en-US/vehicules/vehicules-particuliers-et-de-loisirs",
+    "https://www.interencheres.com/compte/connexion",
+    "https://www.interencheres.com/calendrier",
+    "https://static.interencheres.com/v4/legal/INTERNAUTES/CGU_INTERNAUTES_IE.pdf",
+    "https://www.interencheres.com/informations/mentions-legales.html",
+    "https://static.interencheres.com/doc-externe/politique-protection-donnees-personnelles.pdf",
+    "https://www.interencheres.com/informations/presse.html",
+    "https://www.interencheres.com/art-decoration/peintures-et-dessins",
+    "https://www.interencheres.com/art-decoration/mode-et-bijoux",
+    "https://www.interencheres.com/art-decoration/militaria",
+    "https://www.interencheres.com/art-decoration/instruments-de-musique",
+    "https://www.interencheres.com/art-decoration/vin-et-spiritueux",
+    "https://www.interencheres.com/vehicules/voitures-de-sport-et-de-collection",
+    "https://www.interencheres.com/vehicules/vehicules-particuliers",
+    "https://www.interencheres.com/vehicules/motos-et-scooters",
+    "https://www.interencheres.com/biens-equipement/marchandises-neuves-et-stocks",
+    "https://www.interencheres.com/biens-equipement/btp-et-construction",
+    "https://www.interencheres.com/sitemap.html",
+    "https://play.google.com/store/apps/details?id=io.cpm.asgard.android",
+    "https://apps.apple.com/fr/app/interencheres-ench%C3%A8re-en-ligne/id460763851"
    ],
-   "api": []
+   "api": [
+    "https://www.interencheres.com/_nuxt/manifest.6b48bc17-25f54207.json",
+    "https://assets.interencheres.com/asgard/json/alerts.json",
+    "https://ping.thank-you.io/",
+    "https://search.interencheres.com/v1/search/ie4_sales?filters%5Bdatetime_range%5D=2026-10-23%2C2026-10-23&filters%5Bhas_ended%5D=not%3A1&filters%5Bif_classic_datetime_gt%5D=now%2B1",
+    "https://logbrowser.prod-indb.io/v1/log",
+    "https://m.stripe.com/6"
+   ]
   },
   {
    "source": "Alcopa",
@@ -56,17 +113,17 @@
    "lotsAnalyses": 0,
    "exemplesLiens": [],
    "api": [
-    "https://f3938a005f7e.5396bc6d.us-west-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/mp_verify?region=us-west-1",
-    "https://f3938a005f7e.5396bc6d.us-west-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
-    "https://f3938a005f7e.5396bc6d.us-west-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
-    "https://f3938a005f7e.5396bc6d.us-west-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
-    "https://f3938a005f7e.5396bc6d.us-west-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
-    "https://f3938a005f7e.5396bc6d.us-west-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
-    "https://f3938a005f7e.5396bc6d.us-west-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
-    "https://f3938a005f7e.5396bc6d.us-west-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
-    "https://f3938a005f7e.5396bc6d.us-west-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry"
+    "https://f3938a005f7e.f257394d.us-east-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/mp_verify?region=us-east-1",
+    "https://f3938a005f7e.f257394d.us-east-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
+    "https://f3938a005f7e.f257394d.us-east-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
+    "https://f3938a005f7e.f257394d.us-east-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
+    "https://f3938a005f7e.f257394d.us-east-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
+    "https://f3938a005f7e.f257394d.us-east-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
+    "https://f3938a005f7e.f257394d.us-east-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
+    "https://f3938a005f7e.f257394d.us-east-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
+    "https://f3938a005f7e.f257394d.us-east-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry"
    ]
   }
  ],
- "dureeMinutes": 1
+ "dureeMinutes": 1.3
 }
