@@ -1,5 +1,5 @@
 {
- "miseAJour": "2026-10-25T06:32:25.439Z",
+ "miseAJour": "2026-10-25T12:29:54.135Z",
  "reglages": {
   "_aide": "Réglages du robot BH AUTOSELECT. Modifie-les depuis l'onglet Réglages de l'appli.",
   "prixMaxAchat": 7000,
@@ -112,42 +112,5 @@
    "domaines": false
   }
  },
- "lots": [
-  {
-   "id": "domaines:https://encheres-domaine.gouv.fr/lot/brdmaster90020107-1.html",
-   "source": "Enchères Domaine (État)",
-   "url": "https://encheres-domaine.gouv.fr/lot/brdmaster90020107-1.html",
-   "photo": "https://encheres-domaine.gouv.fr/admin/media/catalog/product/C/O/COTE-GAUCHE_1_24.jpg",
-   "titre": "RENAULT Master",
-   "marque": "RENAULT",
-   "modele": "master",
-   "annee": 2000,
-   "km": 271085,
-   "carburant": "diesel",
-   "boiteAuto": false,
-   "estBasse": null,
-   "estHaute": null,
-   "miseAPrix": 200,
-   "enchere": null,
-   "coteVendeur": null,
-   "fraisPct": 11,
-   "dateVente": "2026-10-23T09:00",
-   "cp": "25000",
-   "ville": "BESANCON",
-   "departement": "25",
-   "judiciaire": true,
-   "risque": "non roulant",
-   "cote": 650,
-   "prixProbable": 260,
-   "coutTotal": 589,
-   "base": "mise à prix +30 %",
-   "marge": 61,
-   "dansZone": false,
-   "bonneAffaire": false,
-   "leboncoin": "https://www.leboncoin.fr/recherche?category=2&text=renault+master&regdate=1999-2001&mileage=245000-295000&fuel=2&sort=price&order=asc",
-   "premiereVue": "2026-10-21T23:21:52.652Z",
-   "derniereVue": "2026-10-21T23:38:19.472Z",
-   "alerte": false
-  }
- ]
+ "lots": []
 }
