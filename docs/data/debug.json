@@ -1,5 +1,5 @@
 {
- "date": "2026-10-26T06:38:06.029Z",
+ "date": "2026-10-26T14:55:12.584Z",
  "sources": [
   {
    "source": "Interenchères",
@@ -35,32 +35,22 @@
      "titre": "Un instant…"
     },
     {
-     "url": "https://www.interencheres.com/vehicules/vente-judiciaire-de-vehicules-690979?universe=vehicles",
-     "statut": "ok",
-     "titre": "Un instant…"
-    },
-    {
      "url": "https://www.interencheres.com/vehicules/vehicules-utilitaires-et-tourisme-675198?universe=vehicles",
      "statut": "ok",
      "titre": "Un instant…"
     },
     {
-     "url": "https://www.interencheres.com/vehicules/vente-vehicules-et-materiels-liquidation-judiciaire-leasing-volontaire-691032/lot-89299294.html?universe=vehicles",
+     "url": "https://www.interencheres.com/vehicules/vehicules-utilitaire-et-tourisme-alcopa-auction-rennes-692390?universe=vehicles",
      "statut": "ok",
      "titre": "Un instant…"
     },
     {
-     "url": "https://www.interencheres.com/vehicules/vente-vehicules-et-materiels-liquidation-judiciaire-leasing-volontaire-691032/lot-89259784.html?universe=vehicles",
+     "url": "https://www.interencheres.com/vehicules/vente-de-vehicules-a-marcq-en-baroeul-59-689782?universe=vehicles",
      "statut": "ok",
      "titre": "Un instant…"
     },
     {
-     "url": "https://www.interencheres.com/vehicules/vente-vehicules-et-materiels-liquidation-judiciaire-leasing-volontaire-691032/lot-89495164.html?universe=vehicles",
-     "statut": "ok",
-     "titre": "Un instant…"
-    },
-    {
-     "url": "https://www.interencheres.com/vehicules/vente-judiciaire-de-vehicules-690979/lot-89255510.html?universe=vehicles",
+     "url": "https://www.interencheres.com/vehicules/vehicules-et-motos-de-sport-et-de-collection-685746/lot-88732598.html?universe=vehicles",
      "statut": "ok",
      "titre": "Un instant…"
     },
@@ -75,12 +65,27 @@
      "titre": "Un instant…"
     },
     {
-     "url": "https://www.interencheres.com/vehicules/vehicules-et-motos-de-sport-et-de-collection-685746/lot-88732598.html?universe=vehicles",
+     "url": "https://www.interencheres.com/vehicules/vehicules-et-motos-de-sport-et-de-collection-685746/lot-88310751.html?universe=vehicles",
+     "statut": "ok",
+     "titre": "Un instant…"
+    },
+    {
+     "url": "https://www.interencheres.com/vehicules/vente-apres-liquidations-judiciaires-vehicules-cabinet-dentaire-coiffeur-et-materiel-electroportatif-689854/lot-89122324.html?universe=vehicles",
+     "statut": "ok",
+     "titre": "Un instant…"
+    },
+    {
+     "url": "https://www.interencheres.com/vehicules/vehicules-et-motos-de-sport-et-de-collection-686760/lot-88343878.html?universe=vehicles",
      "statut": "ok",
      "titre": "Un instant…"
     },
     {
      "url": "https://www.interencheres.com/vehicules/vehicules-materiels-688924/lot-89346936.html?universe=vehicles",
+     "statut": "ok",
+     "titre": "Un instant…"
+    },
+    {
+     "url": "https://www.interencheres.com/vehicules/vehicules-et-motos-de-sport-et-de-collection-685746/lot-88891122.html?universe=vehicles",
      "statut": "ok",
      "titre": "Un instant…"
     }
@@ -127,19 +132,19 @@
     "https://www.interencheres.com/biens-equipement/bien-immateriels?universe=vehicles",
     "https://www.interencheres.com/biens-equipement/chevaux-elevage-et-nature?universe=vehicles",
     "https://www.interencheres.com/biens-equipement/vehicules-mecanique-et-accessoires?universe=vehicles",
-    "https://www.interencheres.com/vehicules/vente-vehicules-et-materiels-liquidation-judiciaire-leasing-volontaire-691032/lot-89299294.html?universe=vehicles",
-    "https://www.interencheres.com/vehicules/vente-vehicules-et-materiels-liquidation-judiciaire-leasing-volontaire-691032/lot-89259784.html?universe=vehicles",
-    "https://www.interencheres.com/vehicules/vente-vehicules-et-materiels-liquidation-judiciaire-leasing-volontaire-691032/lot-89495164.html?universe=vehicles",
-    "https://www.interencheres.com/vehicules/vente-judiciaire-de-vehicules-690979/lot-89255510.html?universe=vehicles",
+    "https://www.interencheres.com/vehicules/vehicules-et-motos-de-sport-et-de-collection-685746/lot-88732598.html?universe=vehicles",
     "https://www.interencheres.com/vehicules/vehicules-et-motos-de-sport-et-de-collection-685746/lot-88246303.html?universe=vehicles",
     "https://www.interencheres.com/vehicules/vehicules-et-motos-de-sport-et-de-collection-685746/lot-88167488.html?universe=vehicles",
-    "https://www.interencheres.com/vehicules/vehicules-et-motos-de-sport-et-de-collection-685746/lot-88732598.html?universe=vehicles",
+    "https://www.interencheres.com/vehicules/vehicules-et-motos-de-sport-et-de-collection-685746/lot-88310751.html?universe=vehicles",
     "https://www.interencheres.com/vehicules/vehicules-materiels-688924/lot-89346936.html?universe=vehicles",
+    "https://www.interencheres.com/vehicules/vehicules-et-motos-de-sport-et-de-collection-685746/lot-88891122.html?universe=vehicles",
+    "https://www.interencheres.com/vehicules/vente-apres-liquidations-judiciaires-vehicules-cabinet-dentaire-coiffeur-et-materiel-electroportatif-689854/lot-89122324.html?universe=vehicles",
+    "https://www.interencheres.com/vehicules/vehicules-et-motos-de-sport-et-de-collection-686760/lot-88343878.html?universe=vehicles",
     "https://www.interencheres.com/calendrier?datetime_range=2026-10-26,2026-10-26&universe=vehicles",
     "https://www.interencheres.com/vehicules/grande-vente-dautomne-600-vehicules-aux-encheres-vehicules-de-tourisme-utilitaires-motos-camping-car-frais-de-vente-inclus-690608?universe=vehicles",
-    "https://www.interencheres.com/vehicules/vente-materiel-agricole-tracteurs-outils-equipements-divers-etc-690544?universe=vehicles",
-    "https://www.interencheres.com/vehicules/vente-judiciaire-de-vehicules-690979?universe=vehicles",
     "https://www.interencheres.com/vehicules/vehicules-utilitaires-et-tourisme-675198?universe=vehicles",
+    "https://www.interencheres.com/vehicules/vehicules-utilitaire-et-tourisme-alcopa-auction-rennes-692390?universe=vehicles",
+    "https://www.interencheres.com/vehicules/vente-de-vehicules-a-marcq-en-baroeul-59-689782?universe=vehicles",
     "https://magazine.interencheres.com/vehicules/pierre-drouin-un-commissaire-priseur-qui-democratise-les-ventes-aux-encheres-de-vehicules/",
     "https://magazine.interencheres.com/art-mobilier/thierry-pomez-cest-a-troyes-qua-eu-lieu-la-premiere-vente-aux-encheres-par-telephone/",
     "https://magazine.interencheres.com/art-mobilier/la-commissaire-priseur-mathilde-vaupres-devoile-les-coulisses-de-ses-ventes-de-souvenirs-et-vehicules-militaires/",
@@ -185,17 +190,17 @@
    "lotsAnalyses": 0,
    "exemplesLiens": [],
    "api": [
-    "https://f3938a005f7e.44f9b63f.us-west-2.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/mp_verify?region=us-west-2",
-    "https://f3938a005f7e.44f9b63f.us-west-2.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
-    "https://f3938a005f7e.44f9b63f.us-west-2.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
-    "https://f3938a005f7e.44f9b63f.us-west-2.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
-    "https://f3938a005f7e.44f9b63f.us-west-2.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
-    "https://f3938a005f7e.44f9b63f.us-west-2.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
-    "https://f3938a005f7e.44f9b63f.us-west-2.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
-    "https://f3938a005f7e.44f9b63f.us-west-2.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
-    "https://f3938a005f7e.44f9b63f.us-west-2.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry"
+    "https://f3938a005f7e.5396bc6d.us-west-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/mp_verify?region=us-west-1",
+    "https://f3938a005f7e.5396bc6d.us-west-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
+    "https://f3938a005f7e.5396bc6d.us-west-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
+    "https://f3938a005f7e.5396bc6d.us-west-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
+    "https://f3938a005f7e.5396bc6d.us-west-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
+    "https://f3938a005f7e.5396bc6d.us-west-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
+    "https://f3938a005f7e.5396bc6d.us-west-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
+    "https://f3938a005f7e.5396bc6d.us-west-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
+    "https://f3938a005f7e.5396bc6d.us-west-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry"
    ]
   }
  ],
- "dureeMinutes": 2.6
+ "dureeMinutes": 2.8
 }
