@@ -1,5 +1,5 @@
 {
- "date": "2026-10-28T17:41:14.108Z",
+ "date": "2026-10-28T22:43:24.041Z",
  "sources": [
   {
    "source": "Interenchères",
@@ -153,8 +153,8 @@
     "https://www.interencheres.com/_nuxt/manifest.6b48bc17-25f54207.json",
     "https://assets.interencheres.com/asgard/json/alerts.json",
     "https://search.interencheres.com/v1/search/ie4_sales?filters%5Bdatetime_range%5D=2026-10-28%2C2026-10-28&filters%5Bhas_ended%5D=not%3A1&filters%5Bif_classic_datetime_gt%5D=now%2B1",
-    "https://m.stripe.com/6",
-    "https://logbrowser.prod-indb.io/v1/log"
+    "https://logbrowser.prod-indb.io/v1/log",
+    "https://m.stripe.com/6"
    ]
   },
   {
