@@ -1,5 +1,5 @@
 {
- "date": "2026-10-29T12:44:01.767Z",
+ "date": "2026-10-29T17:42:38.362Z",
  "sources": [
   {
    "source": "Interenchères",
@@ -35,17 +35,22 @@
      "titre": "Un instant…"
     },
     {
-     "url": "https://www.interencheres.com/vehicules/vehicules-utilitaires-et-tourisme-689253?universe=vehicles",
+     "url": "https://www.interencheres.com/vehicules/vente-100-en-ligne-24h-chrono-692658?universe=vehicles",
      "statut": "ok",
      "titre": "Un instant…"
     },
     {
-     "url": "https://www.interencheres.com/vehicules/vehicules-de-tourisme-utilitaires-divers-frais-de-vente-inclus-691919?universe=vehicles",
+     "url": "https://www.interencheres.com/vehicules/multisites-vehicules-de-tourismes-utilitaires-petits-prix-non-roulants-frais-de-vente-inclus-692301?universe=vehicles",
      "statut": "ok",
      "titre": "Un instant…"
     },
     {
-     "url": "https://www.interencheres.com/vehicules/vehicules-utilitaires-et-particuliers-691893?universe=vehicles",
+     "url": "https://www.interencheres.com/vehicules/vente-mixte-de-vehicules-et-materiel-692439?universe=vehicles",
+     "statut": "ok",
+     "titre": "Un instant…"
+    },
+    {
+     "url": "https://www.interencheres.com/vehicules/vehicules-outillages-et-divers-692110?universe=vehicles",
      "statut": "ok",
      "titre": "Un instant…"
     },
@@ -70,17 +75,17 @@
      "titre": "Un instant…"
     },
     {
-     "url": "https://www.interencheres.com/vehicules/vehicules-utilitaires-moissonneuse-batteuse-john-deere-btp-agricole-tourisme-materiels-divers-691270/lot-89504244.html?universe=vehicles",
-     "statut": "ok",
-     "titre": "Un instant…"
-    },
-    {
      "url": "https://www.interencheres.com/vehicules/vehicules-et-motos-de-sport-et-de-collection-685746/lot-88246096.html?universe=vehicles",
      "statut": "ok",
      "titre": "Un instant…"
     },
     {
      "url": "https://www.interencheres.com/vehicules/vehicules-et-motos-de-sport-et-de-collection-685746/lot-88929262.html?universe=vehicles",
+     "statut": "ok",
+     "titre": "Un instant…"
+    },
+    {
+     "url": "https://www.interencheres.com/vehicules/vehicules-et-motos-de-sport-et-de-collection-685746/lot-88807212.html?universe=vehicles",
      "statut": "ok",
      "titre": "Un instant…"
     },
@@ -137,14 +142,14 @@
     "https://www.interencheres.com/vehicules/vehicules-et-motos-de-sport-et-de-collection-685746/lot-88310751.html?universe=vehicles",
     "https://www.interencheres.com/vehicules/vehicules-et-motos-de-sport-et-de-collection-685746/lot-88167488.html?universe=vehicles",
     "https://www.interencheres.com/vehicules/vehicules-et-motos-de-sport-et-de-collection-685746/lot-88891122.html?universe=vehicles",
-    "https://www.interencheres.com/vehicules/vehicules-utilitaires-moissonneuse-batteuse-john-deere-btp-agricole-tourisme-materiels-divers-691270/lot-89504244.html?universe=vehicles",
     "https://www.interencheres.com/vehicules/vehicules-et-motos-de-sport-et-de-collection-685746/lot-88246096.html?universe=vehicles",
     "https://www.interencheres.com/vehicules/vehicules-et-motos-de-sport-et-de-collection-685746/lot-88929262.html?universe=vehicles",
+    "https://www.interencheres.com/vehicules/vehicules-et-motos-de-sport-et-de-collection-685746/lot-88807212.html?universe=vehicles",
     "https://www.interencheres.com/calendrier?datetime_range=2026-10-29,2026-10-29&universe=vehicles",
-    "https://www.interencheres.com/vehicules/vehicules-utilitaires-et-tourisme-689253?universe=vehicles",
-    "https://www.interencheres.com/vehicules/vehicules-de-tourisme-utilitaires-divers-frais-de-vente-inclus-691919?universe=vehicles",
-    "https://www.interencheres.com/vehicules/vehicules-utilitaires-et-particuliers-691893?universe=vehicles",
-    "https://www.interencheres.com/biens-equipement/vente-transporteur-sur-designation-a-lhotel-des-ventes-691749?universe=vehicles",
+    "https://www.interencheres.com/vehicules/vente-100-en-ligne-24h-chrono-692658?universe=vehicles",
+    "https://www.interencheres.com/vehicules/multisites-vehicules-de-tourismes-utilitaires-petits-prix-non-roulants-frais-de-vente-inclus-692301?universe=vehicles",
+    "https://www.interencheres.com/vehicules/vente-mixte-de-vehicules-et-materiel-692439?universe=vehicles",
+    "https://www.interencheres.com/vehicules/vehicules-outillages-et-divers-692110?universe=vehicles",
     "https://magazine.interencheres.com/vehicules/pierre-drouin-un-commissaire-priseur-qui-democratise-les-ventes-aux-encheres-de-vehicules/",
     "https://magazine.interencheres.com/art-mobilier/thierry-pomez-cest-a-troyes-qua-eu-lieu-la-premiere-vente-aux-encheres-par-telephone/",
     "https://magazine.interencheres.com/art-mobilier/la-commissaire-priseur-mathilde-vaupres-devoile-les-coulisses-de-ses-ventes-de-souvenirs-et-vehicules-militaires/",
@@ -158,8 +163,8 @@
     "https://www.interencheres.com/_nuxt/manifest.6b48bc17-25f54207.json",
     "https://assets.interencheres.com/asgard/json/alerts.json",
     "https://search.interencheres.com/v1/search/ie4_sales?filters%5Bdatetime_range%5D=2026-10-29%2C2026-10-29&filters%5Bhas_ended%5D=not%3A1&filters%5Bif_classic_datetime_gt%5D=now%2B1",
-    "https://logbrowser.prod-indb.io/v1/log",
-    "https://m.stripe.com/6"
+    "https://m.stripe.com/6",
+    "https://logbrowser.prod-indb.io/v1/log"
    ]
   },
   {
@@ -202,5 +207,5 @@
    ]
   }
  ],
- "dureeMinutes": 2.8
+ "dureeMinutes": 3
 }
