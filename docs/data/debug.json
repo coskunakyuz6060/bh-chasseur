@@ -1,5 +1,5 @@
 {
- "date": "2026-10-30T06:45:16.455Z",
+ "date": "2026-10-30T12:43:40.050Z",
  "sources": [
   {
    "source": "Interenchères",
@@ -35,22 +35,17 @@
      "titre": "Un instant…"
     },
     {
-     "url": "https://www.interencheres.com/vehicules/multisites-vehicules-de-tourismes-utilitaires-petits-prix-non-roulants-frais-de-vente-inclus-692301?universe=vehicles",
-     "statut": "ok",
-     "titre": "Un instant…"
-    },
-    {
-     "url": "https://www.interencheres.com/vehicules/vente-mixte-de-vehicules-et-materiel-692439?universe=vehicles",
-     "statut": "ok",
-     "titre": "Un instant…"
-    },
-    {
-     "url": "https://www.interencheres.com/vehicules/vehicules-outillages-et-divers-692110?universe=vehicles",
-     "statut": "ok",
-     "titre": "Un instant…"
-    },
-    {
      "url": "https://www.interencheres.com/vehicules/vehicule-utilitaire-et-tourisme-alcopa-auction-marseille-688140?universe=vehicles",
+     "statut": "ok",
+     "titre": "Un instant…"
+    },
+    {
+     "url": "https://www.interencheres.com/vehicules/en-preparation-vehicules-691215?universe=vehicles",
+     "statut": "ok",
+     "titre": "Un instant…"
+    },
+    {
+     "url": "https://www.interencheres.com/vehicules/vente-aux-encheres-publiques-de-vehicules-et-materiels-liste-partielle-691490?universe=vehicles",
      "statut": "ok",
      "titre": "Un instant…"
     },
@@ -146,10 +141,10 @@
     "https://www.interencheres.com/vehicules/vehicules-et-motos-de-sport-et-de-collection-685746/lot-88929262.html?universe=vehicles",
     "https://www.interencheres.com/vehicules/vehicules-et-motos-de-sport-et-de-collection-685746/lot-88807212.html?universe=vehicles",
     "https://www.interencheres.com/calendrier?datetime_range=2026-10-30,2026-10-30&universe=vehicles",
-    "https://www.interencheres.com/vehicules/multisites-vehicules-de-tourismes-utilitaires-petits-prix-non-roulants-frais-de-vente-inclus-692301?universe=vehicles",
-    "https://www.interencheres.com/vehicules/vente-mixte-de-vehicules-et-materiel-692439?universe=vehicles",
-    "https://www.interencheres.com/vehicules/vehicules-outillages-et-divers-692110?universe=vehicles",
     "https://www.interencheres.com/vehicules/vehicule-utilitaire-et-tourisme-alcopa-auction-marseille-688140?universe=vehicles",
+    "https://www.interencheres.com/vehicules/materiel-tp-poids-lourds-levage-agricole-et-divers-alcopa-auction-tours-691843?universe=vehicles",
+    "https://www.interencheres.com/vehicules/en-preparation-vehicules-691215?universe=vehicles",
+    "https://www.interencheres.com/vehicules/vente-aux-encheres-publiques-de-vehicules-et-materiels-liste-partielle-691490?universe=vehicles",
     "https://magazine.interencheres.com/vehicules/pierre-drouin-un-commissaire-priseur-qui-democratise-les-ventes-aux-encheres-de-vehicules/",
     "https://magazine.interencheres.com/art-mobilier/thierry-pomez-cest-a-troyes-qua-eu-lieu-la-premiere-vente-aux-encheres-par-telephone/",
     "https://magazine.interencheres.com/art-mobilier/la-commissaire-priseur-mathilde-vaupres-devoile-les-coulisses-de-ses-ventes-de-souvenirs-et-vehicules-militaires/",
@@ -163,8 +158,8 @@
     "https://www.interencheres.com/_nuxt/manifest.6b48bc17-25f54207.json",
     "https://assets.interencheres.com/asgard/json/alerts.json",
     "https://search.interencheres.com/v1/search/ie4_sales?filters%5Bdatetime_range%5D=2026-10-30%2C2026-10-30&filters%5Bhas_ended%5D=not%3A1&filters%5Bif_classic_datetime_gt%5D=now%2B1",
-    "https://logbrowser.prod-indb.io/v1/log",
-    "https://m.stripe.com/6"
+    "https://m.stripe.com/6",
+    "https://logbrowser.prod-indb.io/v1/log"
    ]
   },
   {
@@ -207,5 +202,5 @@
    ]
   }
  ],
- "dureeMinutes": 3
+ "dureeMinutes": 2.9
 }
