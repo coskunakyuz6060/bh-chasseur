@@ -1,5 +1,5 @@
 {
- "date": "2026-11-01T06:48:05.916Z",
+ "date": "2026-11-01T12:40:19.351Z",
  "sources": [
   {
    "source": "Interenchères",
@@ -55,6 +55,11 @@
      "titre": "Un instant…"
     },
     {
+     "url": "https://www.interencheres.com/vehicules/vente-vehicules-judiciaires-selarl-de-bouvet-tabutin-691792/lot-89511958.html?universe=vehicles",
+     "statut": "ok",
+     "titre": "Un instant…"
+    },
+    {
      "url": "https://www.interencheres.com/vehicules/vehicules-et-motos-de-sport-et-de-collection-686760/lot-88343878.html?universe=vehicles",
      "statut": "ok",
      "titre": "Un instant…"
@@ -65,22 +70,17 @@
      "titre": "Un instant…"
     },
     {
-     "url": "https://www.interencheres.com/vehicules/vente-vehicules-judiciaires-selarl-de-bouvet-tabutin-691792/lot-89511958.html?universe=vehicles",
-     "statut": "ok",
-     "titre": "Un instant…"
-    },
-    {
      "url": "https://www.interencheres.com/vehicules/renault-19-16s-18-16v-phase-1-1991-93-898-km-au-compteur-691857/lot-89386405.html?universe=vehicles",
      "statut": "ok",
      "titre": "Un instant…"
     },
     {
-     "url": "https://www.interencheres.com/vehicules/vehicules-690553/lot-89235869.html?universe=vehicles",
+     "url": "https://www.interencheres.com/vehicules/vente-vehicules-judiciaires-selarl-de-bouvet-tabutin-691792/lot-89511856.html?universe=vehicles",
      "statut": "ok",
      "titre": "Un instant…"
     },
     {
-     "url": "https://www.interencheres.com/vehicules/vente-vehicules-judiciaires-selarl-de-bouvet-tabutin-691792/lot-89511856.html?universe=vehicles",
+     "url": "https://www.interencheres.com/vehicules/vehicules-690553/lot-89235869.html?universe=vehicles",
      "statut": "ok",
      "titre": "Un instant…"
     }
@@ -127,14 +127,14 @@
     "https://www.interencheres.com/biens-equipement/bien-immateriels?universe=vehicles",
     "https://www.interencheres.com/biens-equipement/chevaux-elevage-et-nature?universe=vehicles",
     "https://www.interencheres.com/biens-equipement/vehicules-mecanique-et-accessoires?universe=vehicles",
+    "https://www.interencheres.com/vehicules/vente-vehicules-judiciaires-selarl-de-bouvet-tabutin-691792/lot-89511958.html?universe=vehicles",
     "https://www.interencheres.com/vehicules/vehicules-et-motos-de-sport-et-de-collection-686760/lot-88343878.html?universe=vehicles",
     "https://www.interencheres.com/vehicules/vehicules-et-motos-de-sport-et-de-collection-686760/lot-88299431.html?universe=vehicles",
     "https://www.interencheres.com/biens-equipement/vente-judiciaire-sur-designation-691810/lot-89387125.html?universe=vehicles",
-    "https://www.interencheres.com/vehicules/vente-vehicules-judiciaires-selarl-de-bouvet-tabutin-691792/lot-89511958.html?universe=vehicles",
     "https://www.interencheres.com/vehicules/renault-19-16s-18-16v-phase-1-1991-93-898-km-au-compteur-691857/lot-89386405.html?universe=vehicles",
+    "https://www.interencheres.com/vehicules/vente-vehicules-judiciaires-selarl-de-bouvet-tabutin-691792/lot-89511856.html?universe=vehicles",
     "https://www.interencheres.com/vehicules/vehicules-690553/lot-89235869.html?universe=vehicles",
     "https://www.interencheres.com/biens-equipement/materiel-agencement-stock-et-vehicules-692440/lot-89527482.html?universe=vehicles",
-    "https://www.interencheres.com/vehicules/vente-vehicules-judiciaires-selarl-de-bouvet-tabutin-691792/lot-89511856.html?universe=vehicles",
     "https://www.interencheres.com/calendrier?datetime_range=2026-11-01,2026-11-01&universe=vehicles",
     "https://www.interencheres.com/vehicules/renault-megane-coupe-20-16v-22031996-160-190-km-691869?universe=vehicles",
     "https://www.interencheres.com/vehicules/renault-19-16s-18-16v-phase-1-1991-93-898-km-au-compteur-691857?universe=vehicles",
