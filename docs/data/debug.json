@@ -1,5 +1,5 @@
 {
- "date": "2026-11-01T12:40:19.351Z",
+ "date": "2026-11-01T17:28:21.443Z",
  "sources": [
   {
    "source": "Interenchères",
@@ -7,12 +7,12 @@
     {
      "url": "https://www.interencheres.com/vehicules/",
      "statut": "ok",
-     "titre": "Véhicules | Interencheres.com"
+     "titre": "Un instant…"
     },
     {
      "url": "https://www.interencheres.com/vehicules/vehicules-particuliers-et-de-loisirs",
      "statut": "ok",
-     "titre": "Un instant…"
+     "titre": "Interencheres.com"
     },
     {
      "url": "https://www.interencheres.com/calendrier?universe=vehicles",
@@ -20,74 +20,21 @@
      "titre": "Un instant…"
     },
     {
-     "url": "https://www.interencheres.com/vehicules/voitures-de-sport-et-de-collection?universe=vehicles",
+     "url": "https://www.interencheres.com/vehicules/voitures-de-sport-et-de-collection",
      "statut": "ok",
      "titre": "Un instant…"
     },
     {
-     "url": "https://www.interencheres.com/vehicules/vehicules-particuliers?universe=vehicles",
-     "statut": "ok",
-     "titre": "Un instant…"
-    },
-    {
-     "url": "https://www.interencheres.com/vehicules/vehicules-professionnels?universe=vehicles",
-     "statut": "ok",
-     "titre": "Un instant…"
-    },
-    {
-     "url": "https://www.interencheres.com/vehicules/renault-megane-coupe-20-16v-22031996-160-190-km-691869?universe=vehicles",
-     "statut": "ok",
-     "titre": "Un instant…"
-    },
-    {
-     "url": "https://www.interencheres.com/vehicules/renault-19-16s-18-16v-phase-1-1991-93-898-km-au-compteur-691857?universe=vehicles",
-     "statut": "ok",
-     "titre": "Un instant…"
-    },
-    {
-     "url": "https://www.interencheres.com/vehicules/vente-de-vehicules-692345?universe=vehicles",
-     "statut": "ok",
-     "titre": "Un instant…"
-    },
-    {
-     "url": "https://www.interencheres.com/vehicules/vehicules-utilitaires-et-tourisme-675199?universe=vehicles",
-     "statut": "ok",
-     "titre": "Un instant…"
-    },
-    {
-     "url": "https://www.interencheres.com/vehicules/vente-vehicules-judiciaires-selarl-de-bouvet-tabutin-691792/lot-89511958.html?universe=vehicles",
-     "statut": "ok",
-     "titre": "Un instant…"
-    },
-    {
-     "url": "https://www.interencheres.com/vehicules/vehicules-et-motos-de-sport-et-de-collection-686760/lot-88343878.html?universe=vehicles",
-     "statut": "ok",
-     "titre": "Un instant…"
-    },
-    {
-     "url": "https://www.interencheres.com/vehicules/vehicules-et-motos-de-sport-et-de-collection-686760/lot-88299431.html?universe=vehicles",
-     "statut": "ok",
-     "titre": "Un instant…"
-    },
-    {
-     "url": "https://www.interencheres.com/vehicules/renault-19-16s-18-16v-phase-1-1991-93-898-km-au-compteur-691857/lot-89386405.html?universe=vehicles",
-     "statut": "ok",
-     "titre": "Un instant…"
-    },
-    {
-     "url": "https://www.interencheres.com/vehicules/vente-vehicules-judiciaires-selarl-de-bouvet-tabutin-691792/lot-89511856.html?universe=vehicles",
-     "statut": "ok",
-     "titre": "Un instant…"
-    },
-    {
-     "url": "https://www.interencheres.com/vehicules/vehicules-690553/lot-89235869.html?universe=vehicles",
+     "url": "https://www.interencheres.com/vehicules/vehicules-particuliers",
      "statut": "ok",
      "titre": "Un instant…"
     }
    ],
-   "lotsTrouves": 6,
+   "lotsTrouves": 0,
    "lotsAnalyses": 0,
    "exemplesLiens": [
+    "https://www.cloudflare.com/?utm_source=challenge&utm_campaign=j",
+    "https://www.cloudflare.com/fr-fr/privacypolicy/",
     "https://www.interencheres.com/",
     "https://www.interencheres.com/premium",
     "https://www.interencheres.com/art-decoration",
@@ -108,50 +55,31 @@
     "https://www.pinterest.fr/interencheres/",
     "https://www.linkedin.com/company/3488560/",
     "https://www.youtube.com/channel/UC4ePh8Ri3Iw_gT8sFuRIg3A",
-    "https://www.interencheres.com/en-US/vehicules",
+    "https://www.interencheres.com/en-US/vehicules/vehicules-particuliers-et-de-loisirs",
     "https://www.interencheres.com/compte/connexion",
     "https://www.interencheres.com/calendrier",
-    "https://www.interencheres.com/art-decoration/art?universe=vehicles",
-    "https://www.interencheres.com/art-decoration/decoration-et-mobilier?universe=vehicles",
-    "https://www.interencheres.com/art-decoration/mode-et-bijoux?universe=vehicles",
-    "https://www.interencheres.com/art-decoration/civilisations-et-cultures?universe=vehicles",
-    "https://www.interencheres.com/art-decoration/collections?universe=vehicles",
-    "https://www.interencheres.com/vehicules/voitures-de-sport-et-de-collection?universe=vehicles",
-    "https://www.interencheres.com/vehicules/vehicules-particuliers?universe=vehicles",
-    "https://www.interencheres.com/vehicules/aerien-maritime-et-ferroviaire?universe=vehicles",
-    "https://www.interencheres.com/vehicules/vehicules-professionnels?universe=vehicles",
-    "https://www.interencheres.com/art-decoration/or-et-metaux-precieux?universe=vehicles",
-    "https://www.interencheres.com/biens-equipement/objets-du-quotidien?universe=vehicles",
-    "https://www.interencheres.com/biens-equipement/marchandises-neuves-et-stocks?universe=vehicles",
-    "https://www.interencheres.com/biens-equipement/materiels-professionnels?universe=vehicles",
-    "https://www.interencheres.com/biens-equipement/bien-immateriels?universe=vehicles",
-    "https://www.interencheres.com/biens-equipement/chevaux-elevage-et-nature?universe=vehicles",
-    "https://www.interencheres.com/biens-equipement/vehicules-mecanique-et-accessoires?universe=vehicles",
-    "https://www.interencheres.com/vehicules/vente-vehicules-judiciaires-selarl-de-bouvet-tabutin-691792/lot-89511958.html?universe=vehicles",
-    "https://www.interencheres.com/vehicules/vehicules-et-motos-de-sport-et-de-collection-686760/lot-88343878.html?universe=vehicles",
-    "https://www.interencheres.com/vehicules/vehicules-et-motos-de-sport-et-de-collection-686760/lot-88299431.html?universe=vehicles",
-    "https://www.interencheres.com/biens-equipement/vente-judiciaire-sur-designation-691810/lot-89387125.html?universe=vehicles",
-    "https://www.interencheres.com/vehicules/renault-19-16s-18-16v-phase-1-1991-93-898-km-au-compteur-691857/lot-89386405.html?universe=vehicles",
-    "https://www.interencheres.com/vehicules/vente-vehicules-judiciaires-selarl-de-bouvet-tabutin-691792/lot-89511856.html?universe=vehicles",
-    "https://www.interencheres.com/vehicules/vehicules-690553/lot-89235869.html?universe=vehicles",
-    "https://www.interencheres.com/biens-equipement/materiel-agencement-stock-et-vehicules-692440/lot-89527482.html?universe=vehicles",
-    "https://www.interencheres.com/calendrier?datetime_range=2026-11-01,2026-11-01&universe=vehicles",
-    "https://www.interencheres.com/vehicules/renault-megane-coupe-20-16v-22031996-160-190-km-691869?universe=vehicles",
-    "https://www.interencheres.com/vehicules/renault-19-16s-18-16v-phase-1-1991-93-898-km-au-compteur-691857?universe=vehicles",
-    "https://www.interencheres.com/vehicules/vente-de-vehicules-692345?universe=vehicles",
-    "https://www.interencheres.com/vehicules/vehicules-utilitaires-et-tourisme-675199?universe=vehicles",
-    "https://magazine.interencheres.com/vehicules/pierre-drouin-un-commissaire-priseur-qui-democratise-les-ventes-aux-encheres-de-vehicules/",
-    "https://magazine.interencheres.com/art-mobilier/thierry-pomez-cest-a-troyes-qua-eu-lieu-la-premiere-vente-aux-encheres-par-telephone/",
-    "https://magazine.interencheres.com/art-mobilier/la-commissaire-priseur-mathilde-vaupres-devoile-les-coulisses-de-ses-ventes-de-souvenirs-et-vehicules-militaires/",
-    "https://magazine.interencheres.com/coulisses-des-encheres/",
-    "https://www.auction.fr/abonnement/",
-    "https://magazine.interencheres.com/vehicules/voiture-saint-exupery-encheres-lyon/",
-    "https://magazine.interencheres.com/vehicules/camions-pompiers-collection-encheres-beaune/",
-    "https://magazine.interencheres.com/vehicules/maserati-3500-gt-encheres-bordeaux-classic/"
+    "https://static.interencheres.com/v4/legal/INTERNAUTES/CGU_INTERNAUTES_IE.pdf",
+    "https://www.interencheres.com/informations/mentions-legales.html",
+    "https://static.interencheres.com/doc-externe/politique-protection-donnees-personnelles.pdf",
+    "https://www.interencheres.com/informations/presse.html",
+    "https://www.interencheres.com/art-decoration/peintures-et-dessins",
+    "https://www.interencheres.com/art-decoration/mode-et-bijoux",
+    "https://www.interencheres.com/art-decoration/militaria",
+    "https://www.interencheres.com/art-decoration/instruments-de-musique",
+    "https://www.interencheres.com/art-decoration/vin-et-spiritueux",
+    "https://www.interencheres.com/vehicules/voitures-de-sport-et-de-collection",
+    "https://www.interencheres.com/vehicules/vehicules-particuliers",
+    "https://www.interencheres.com/vehicules/motos-et-scooters",
+    "https://www.interencheres.com/biens-equipement/marchandises-neuves-et-stocks",
+    "https://www.interencheres.com/biens-equipement/btp-et-construction",
+    "https://www.interencheres.com/sitemap.html",
+    "https://play.google.com/store/apps/details?id=io.cpm.asgard.android",
+    "https://apps.apple.com/fr/app/interencheres-ench%C3%A8re-en-ligne/id460763851"
    ],
    "api": [
     "https://www.interencheres.com/_nuxt/manifest.6b48bc17-25f54207.json",
     "https://assets.interencheres.com/asgard/json/alerts.json",
+    "https://ping.thank-you.io/",
     "https://search.interencheres.com/v1/search/ie4_sales?filters%5Bdatetime_range%5D=2026-11-01%2C2026-11-01&filters%5Bhas_ended%5D=not%3A1&filters%5Bif_classic_datetime_gt%5D=now%2B1",
     "https://logbrowser.prod-indb.io/v1/log",
     "https://m.stripe.com/6"
@@ -197,5 +125,5 @@
    ]
   }
  ],
- "dureeMinutes": 2.8
+ "dureeMinutes": 1.3
 }
