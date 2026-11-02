@@ -1,5 +1,5 @@
 {
- "date": "2026-11-02T12:55:13.285Z",
+ "date": "2026-11-02T17:51:39.710Z",
  "sources": [
   {
    "source": "Interenchères",
@@ -35,22 +35,22 @@
      "titre": "Un instant…"
     },
     {
-     "url": "https://www.interencheres.com/vehicules/vehicules-utilitaires-et-tourisme-675199?universe=vehicles",
+     "url": "https://www.interencheres.com/vehicules/vehicules-691760?universe=vehicles",
      "statut": "ok",
      "titre": "Un instant…"
     },
     {
-     "url": "https://www.interencheres.com/vehicules/vehicules-utilitaire-et-tourisme-alcopa-auction-rennes-692981?universe=vehicles",
+     "url": "https://www.interencheres.com/vehicules/vente-de-vehicule-100-online-pas-de-vente-physique-669172?universe=vehicles",
      "statut": "ok",
      "titre": "Un instant…"
     },
     {
-     "url": "https://www.interencheres.com/vehicules/vehicules-de-tourisme-utilitaires-petits-prix-non-roulant-frais-de-vente-inclus-692696?universe=vehicles",
+     "url": "https://www.interencheres.com/vehicules/vente-aux-encheres-judiciaires-vehicule-692473?universe=vehicles",
      "statut": "ok",
      "titre": "Un instant…"
     },
     {
-     "url": "https://www.interencheres.com/vehicules/vente-de-vehicules-a-vendeville-59175-692046?universe=vehicles",
+     "url": "https://www.interencheres.com/vehicules/audi-q7-q7-vendu-sur-saisie-692285?universe=vehicles",
      "statut": "ok",
      "titre": "Un instant…"
     },
@@ -83,9 +83,14 @@
      "url": "https://www.interencheres.com/vehicules/vehicules-690553/lot-89235869.html?universe=vehicles",
      "statut": "ok",
      "titre": "Un instant…"
+    },
+    {
+     "url": "https://www.interencheres.com/vehicules/vehicules-de-collection-et-plaques-emaillees-690360/lot-89307144.html?universe=vehicles",
+     "statut": "ok",
+     "titre": "Un instant…"
     }
    ],
-   "lotsTrouves": 6,
+   "lotsTrouves": 7,
    "lotsAnalyses": 0,
    "exemplesLiens": [
     "https://www.interencheres.com/",
@@ -134,12 +139,12 @@
     "https://www.interencheres.com/vehicules/vehicules-et-motos-de-sport-et-de-collection-686760/lot-88299431.html?universe=vehicles",
     "https://www.interencheres.com/vehicules/vehicules-690553/lot-89235869.html?universe=vehicles",
     "https://www.interencheres.com/biens-equipement/vente-judiciaire-sur-designation-691810/lot-89387125.html?universe=vehicles",
-    "https://www.interencheres.com/biens-equipement/materiel-agencement-stock-et-vehicules-692440/lot-89527482.html?universe=vehicles",
+    "https://www.interencheres.com/vehicules/vehicules-de-collection-et-plaques-emaillees-690360/lot-89307144.html?universe=vehicles",
     "https://www.interencheres.com/calendrier?datetime_range=2026-11-02,2026-11-02&universe=vehicles",
-    "https://www.interencheres.com/vehicules/vehicules-utilitaires-et-tourisme-675199?universe=vehicles",
-    "https://www.interencheres.com/vehicules/vehicules-utilitaire-et-tourisme-alcopa-auction-rennes-692981?universe=vehicles",
-    "https://www.interencheres.com/vehicules/vehicules-de-tourisme-utilitaires-petits-prix-non-roulant-frais-de-vente-inclus-692696?universe=vehicles",
-    "https://www.interencheres.com/vehicules/vente-de-vehicules-a-vendeville-59175-692046?universe=vehicles",
+    "https://www.interencheres.com/vehicules/vehicules-691760?universe=vehicles",
+    "https://www.interencheres.com/vehicules/vente-de-vehicule-100-online-pas-de-vente-physique-669172?universe=vehicles",
+    "https://www.interencheres.com/vehicules/vente-aux-encheres-judiciaires-vehicule-692473?universe=vehicles",
+    "https://www.interencheres.com/vehicules/audi-q7-q7-vendu-sur-saisie-692285?universe=vehicles",
     "https://magazine.interencheres.com/vehicules/pierre-drouin-un-commissaire-priseur-qui-democratise-les-ventes-aux-encheres-de-vehicules/",
     "https://magazine.interencheres.com/art-mobilier/thierry-pomez-cest-a-troyes-qua-eu-lieu-la-premiere-vente-aux-encheres-par-telephone/",
     "https://magazine.interencheres.com/art-mobilier/la-commissaire-priseur-mathilde-vaupres-devoile-les-coulisses-de-ses-ventes-de-souvenirs-et-vehicules-militaires/",
@@ -152,9 +157,9 @@
    "api": [
     "https://www.interencheres.com/_nuxt/manifest.6b48bc17-25f54207.json",
     "https://assets.interencheres.com/asgard/json/alerts.json",
+    "https://m.stripe.com/6",
     "https://search.interencheres.com/v1/search/ie4_sales?filters%5Bdatetime_range%5D=2026-11-02%2C2026-11-02&filters%5Bhas_ended%5D=not%3A1&filters%5Bif_classic_datetime_gt%5D=now%2B1",
-    "https://logbrowser.prod-indb.io/v1/log",
-    "https://m.stripe.com/6"
+    "https://logbrowser.prod-indb.io/v1/log"
    ]
   },
   {
@@ -185,17 +190,17 @@
    "lotsAnalyses": 0,
    "exemplesLiens": [],
    "api": [
-    "https://f3938a005f7e.5396bc6d.us-west-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/mp_verify?region=us-west-1",
-    "https://f3938a005f7e.5396bc6d.us-west-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
-    "https://f3938a005f7e.5396bc6d.us-west-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
-    "https://f3938a005f7e.5396bc6d.us-west-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
-    "https://f3938a005f7e.5396bc6d.us-west-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
-    "https://f3938a005f7e.5396bc6d.us-west-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
-    "https://f3938a005f7e.5396bc6d.us-west-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
-    "https://f3938a005f7e.5396bc6d.us-west-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
-    "https://f3938a005f7e.5396bc6d.us-west-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry"
+    "https://f3938a005f7e.f257394d.us-east-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/mp_verify?region=us-east-1",
+    "https://f3938a005f7e.f257394d.us-east-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
+    "https://f3938a005f7e.f257394d.us-east-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
+    "https://f3938a005f7e.f257394d.us-east-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
+    "https://f3938a005f7e.f257394d.us-east-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
+    "https://f3938a005f7e.f257394d.us-east-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
+    "https://f3938a005f7e.f257394d.us-east-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
+    "https://f3938a005f7e.f257394d.us-east-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
+    "https://f3938a005f7e.f257394d.us-east-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry"
    ]
   }
  ],
- "dureeMinutes": 2.8
+ "dureeMinutes": 3
 }
