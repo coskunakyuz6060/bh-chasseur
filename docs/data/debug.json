@@ -1,5 +1,5 @@
 {
- "date": "2026-11-03T12:53:54.090Z",
+ "date": "2026-11-03T17:44:34.216Z",
  "sources": [
   {
    "source": "Interenchères",
@@ -35,12 +35,17 @@
      "titre": "Un instant…"
     },
     {
-     "url": "https://www.interencheres.com/vehicules/semi-remorques-vehicules-691447?universe=vehicles",
+     "url": "https://www.interencheres.com/vehicules/vente-vehicules-692893?universe=vehicles",
      "statut": "ok",
      "titre": "Un instant…"
     },
     {
-     "url": "https://www.interencheres.com/vehicules/vente-annulee-lj-vente-de-deux-vehicules-692609?universe=vehicles",
+     "url": "https://www.interencheres.com/vehicules/vehicules-692654?universe=vehicles",
+     "statut": "ok",
+     "titre": "Un instant…"
+    },
+    {
+     "url": "https://www.interencheres.com/vehicules/vehicules-utilitaires-et-tourisme-692727?universe=vehicles",
      "statut": "ok",
      "titre": "Un instant…"
     },
@@ -131,10 +136,10 @@
     "https://www.interencheres.com/vehicules/vehicules-de-collection-et-plaques-emaillees-690360/lot-89307106.html?universe=vehicles",
     "https://www.interencheres.com/biens-equipement/materiel-agencement-stock-et-vehicules-692440/lot-89527482.html?universe=vehicles",
     "https://www.interencheres.com/calendrier?datetime_range=2026-11-03,2026-11-03&universe=vehicles",
-    "https://www.interencheres.com/vehicules/live-only-vehicules-utilitaires-et-particuliers-poids-lourds-volvo-691894?universe=vehicles",
-    "https://www.interencheres.com/art-decoration/chemin-de-fer-ecartement-ho-686482?universe=vehicles",
-    "https://www.interencheres.com/vehicules/semi-remorques-vehicules-691447?universe=vehicles",
-    "https://www.interencheres.com/vehicules/vente-annulee-lj-vente-de-deux-vehicules-692609?universe=vehicles",
+    "https://www.interencheres.com/vehicules/vente-vehicules-692893?universe=vehicles",
+    "https://www.interencheres.com/vehicules/vehicules-692654?universe=vehicles",
+    "https://www.interencheres.com/biens-equipement/9h30-vehicules-et-camions-tp-terrassement-pelles-692584?universe=vehicles",
+    "https://www.interencheres.com/vehicules/vehicules-utilitaires-et-tourisme-692727?universe=vehicles",
     "https://magazine.interencheres.com/vehicules/pierre-drouin-un-commissaire-priseur-qui-democratise-les-ventes-aux-encheres-de-vehicules/",
     "https://magazine.interencheres.com/art-mobilier/thierry-pomez-cest-a-troyes-qua-eu-lieu-la-premiere-vente-aux-encheres-par-telephone/",
     "https://magazine.interencheres.com/art-mobilier/la-commissaire-priseur-mathilde-vaupres-devoile-les-coulisses-de-ses-ventes-de-souvenirs-et-vehicules-militaires/",
@@ -147,9 +152,9 @@
    "api": [
     "https://www.interencheres.com/_nuxt/manifest.6b48bc17-25f54207.json",
     "https://assets.interencheres.com/asgard/json/alerts.json",
-    "https://m.stripe.com/6",
     "https://search.interencheres.com/v1/search/ie4_sales?filters%5Bdatetime_range%5D=2026-11-03%2C2026-11-03&filters%5Bhas_ended%5D=not%3A1&filters%5Bif_classic_datetime_gt%5D=now%2B1",
-    "https://logbrowser.prod-indb.io/v1/log"
+    "https://logbrowser.prod-indb.io/v1/log",
+    "https://m.stripe.com/6"
    ]
   },
   {
@@ -192,5 +197,5 @@
    ]
   }
  ],
- "dureeMinutes": 2.5
+ "dureeMinutes": 2.8
 }
