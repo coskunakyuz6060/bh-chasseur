@@ -1,5 +1,5 @@
 {
- "date": "2026-11-04T12:54:20.900Z",
+ "date": "2026-11-04T17:49:04.482Z",
  "sources": [
   {
    "source": "Interenchères",
@@ -35,17 +35,12 @@
      "titre": "Un instant…"
     },
     {
-     "url": "https://www.interencheres.com/vehicules/vehicules-utilitaires-et-tourisme-692727?universe=vehicles",
+     "url": "https://www.interencheres.com/vehicules/stock-de-vetements-licence-taxi-vehicules-692123?universe=vehicles",
      "statut": "ok",
      "titre": "Un instant…"
     },
     {
-     "url": "https://www.interencheres.com/vehicules/vente-vehicules-692840?universe=vehicles",
-     "statut": "ok",
-     "titre": "Un instant…"
-    },
-    {
-     "url": "https://www.interencheres.com/vehicules/vente-vehicule-judiciaire-et-sur-realisation-de-leasing-693066?universe=vehicles",
+     "url": "https://www.interencheres.com/vehicules/vehicules-de-tourisme-utilitaires-divers-frais-de-vente-inclus-692868?universe=vehicles",
      "statut": "ok",
      "titre": "Un instant…"
     },
@@ -80,12 +75,12 @@
      "titre": "Un instant…"
     },
     {
-     "url": "https://www.interencheres.com/vehicules/vehicules-et-motos-de-sport-et-de-collection-686760/lot-88343878.html?universe=vehicles",
+     "url": "https://www.interencheres.com/vehicules/vehicules-de-collection-et-plaques-emaillees-690360/lot-89307085.html?universe=vehicles",
      "statut": "ok",
      "titre": "Un instant…"
     },
     {
-     "url": "https://www.interencheres.com/vehicules/vehicules-de-collection-et-plaques-emaillees-690360/lot-89307085.html?universe=vehicles",
+     "url": "https://www.interencheres.com/vehicules/vehicules-et-motos-de-sport-et-de-collection-686760/lot-88343878.html?universe=vehicles",
      "statut": "ok",
      "titre": "Un instant…"
     }
@@ -138,13 +133,13 @@
     "https://www.interencheres.com/vehicules/vehicules-de-collection-et-plaques-emaillees-690360/lot-89307144.html?universe=vehicles",
     "https://www.interencheres.com/vehicules/vehicules-de-collection-et-plaques-emaillees-690360/lot-89307106.html?universe=vehicles",
     "https://www.interencheres.com/vehicules/vehicules-690553/lot-89235869.html?universe=vehicles",
-    "https://www.interencheres.com/vehicules/vehicules-et-motos-de-sport-et-de-collection-686760/lot-88343878.html?universe=vehicles",
     "https://www.interencheres.com/vehicules/vehicules-de-collection-et-plaques-emaillees-690360/lot-89307085.html?universe=vehicles",
+    "https://www.interencheres.com/vehicules/vehicules-et-motos-de-sport-et-de-collection-686760/lot-88343878.html?universe=vehicles",
     "https://www.interencheres.com/calendrier?datetime_range=2026-11-04,2026-11-04&universe=vehicles",
-    "https://www.interencheres.com/vehicules/vehicules-utilitaires-et-tourisme-692727?universe=vehicles",
-    "https://www.interencheres.com/vehicules/vente-vehicules-692840?universe=vehicles",
-    "https://www.interencheres.com/vehicules/vente-vehicule-judiciaire-et-sur-realisation-de-leasing-693066?universe=vehicles",
-    "https://www.interencheres.com/biens-equipement/transports-routiers-pl-et-utilitaires-materiel-de-levage-692728?universe=vehicles",
+    "https://www.interencheres.com/vehicules/vente-de-vehicules-materiel-agricole-vehicules-anciens-et-de-collections-692273?universe=vehicles",
+    "https://www.interencheres.com/vehicules/ambulances-tracteur-routier-vehicules-utilitaires-et-de-tourisme-691955?universe=vehicles",
+    "https://www.interencheres.com/vehicules/stock-de-vetements-licence-taxi-vehicules-692123?universe=vehicles",
+    "https://www.interencheres.com/vehicules/vehicules-de-tourisme-utilitaires-divers-frais-de-vente-inclus-692868?universe=vehicles",
     "https://magazine.interencheres.com/vehicules/pierre-drouin-un-commissaire-priseur-qui-democratise-les-ventes-aux-encheres-de-vehicules/",
     "https://magazine.interencheres.com/art-mobilier/thierry-pomez-cest-a-troyes-qua-eu-lieu-la-premiere-vente-aux-encheres-par-telephone/",
     "https://magazine.interencheres.com/art-mobilier/la-commissaire-priseur-mathilde-vaupres-devoile-les-coulisses-de-ses-ventes-de-souvenirs-et-vehicules-militaires/",
@@ -157,9 +152,9 @@
    "api": [
     "https://www.interencheres.com/_nuxt/manifest.6b48bc17-25f54207.json",
     "https://assets.interencheres.com/asgard/json/alerts.json",
-    "https://m.stripe.com/6",
     "https://search.interencheres.com/v1/search/ie4_sales?filters%5Bdatetime_range%5D=2026-11-04%2C2026-11-04&filters%5Bhas_ended%5D=not%3A1&filters%5Bif_classic_datetime_gt%5D=now%2B1",
-    "https://logbrowser.prod-indb.io/v1/log"
+    "https://logbrowser.prod-indb.io/v1/log",
+    "https://m.stripe.com/6"
    ]
   },
   {
@@ -190,17 +185,17 @@
    "lotsAnalyses": 0,
    "exemplesLiens": [],
    "api": [
-    "https://f3938a005f7e.44f9b63f.us-west-2.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/mp_verify?region=us-west-2",
-    "https://f3938a005f7e.44f9b63f.us-west-2.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
-    "https://f3938a005f7e.44f9b63f.us-west-2.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
-    "https://f3938a005f7e.44f9b63f.us-west-2.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
-    "https://f3938a005f7e.44f9b63f.us-west-2.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
-    "https://f3938a005f7e.44f9b63f.us-west-2.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
-    "https://f3938a005f7e.44f9b63f.us-west-2.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
-    "https://f3938a005f7e.44f9b63f.us-west-2.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
-    "https://f3938a005f7e.44f9b63f.us-west-2.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry"
+    "https://f3938a005f7e.f257394d.us-east-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/mp_verify?region=us-east-1",
+    "https://f3938a005f7e.f257394d.us-east-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
+    "https://f3938a005f7e.f257394d.us-east-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
+    "https://f3938a005f7e.f257394d.us-east-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
+    "https://f3938a005f7e.f257394d.us-east-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
+    "https://f3938a005f7e.f257394d.us-east-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
+    "https://f3938a005f7e.f257394d.us-east-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
+    "https://f3938a005f7e.f257394d.us-east-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
+    "https://f3938a005f7e.f257394d.us-east-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry"
    ]
   }
  ],
- "dureeMinutes": 2.8
+ "dureeMinutes": 2.6
 }
