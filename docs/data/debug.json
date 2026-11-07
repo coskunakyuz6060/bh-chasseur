@@ -1,5 +1,5 @@
 {
- "date": "2026-11-06T17:44:08.339Z",
+ "date": "2026-11-07T06:48:32.102Z",
  "sources": [
   {
    "source": "Interenchères",
@@ -78,11 +78,11 @@
    ],
    "api": [
     "https://www.interencheres.com/_nuxt/manifest.6b48bc17-25f54207.json",
-    "https://ping.thank-you.io/",
-    "https://m.stripe.com/6",
     "https://assets.interencheres.com/asgard/json/alerts.json",
-    "https://search.interencheres.com/v1/search/ie4_sales?filters%5Bdatetime_range%5D=2026-11-06%2C2026-11-06&filters%5Bhas_ended%5D=not%3A1&filters%5Bif_classic_datetime_gt%5D=now%2B1",
-    "https://logbrowser.prod-indb.io/v1/log"
+    "https://ping.thank-you.io/",
+    "https://search.interencheres.com/v1/search/ie4_sales?filters%5Bdatetime_range%5D=2026-11-07%2C2026-11-07&filters%5Bhas_ended%5D=not%3A1&filters%5Bif_classic_datetime_gt%5D=now%2B1",
+    "https://logbrowser.prod-indb.io/v1/log",
+    "https://m.stripe.com/6"
    ]
   },
   {
