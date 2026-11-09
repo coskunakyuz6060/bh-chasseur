@@ -1,5 +1,5 @@
 {
- "date": "2026-11-08T17:29:50.329Z",
+ "date": "2026-11-09T07:16:45.147Z",
  "sources": [
   {
    "source": "Interenchères",
@@ -78,10 +78,10 @@
    ],
    "api": [
     "https://www.interencheres.com/_nuxt/manifest.6b48bc17-25f54207.json",
+    "https://ping.thank-you.io/",
     "https://assets.interencheres.com/asgard/json/alerts.json",
     "https://m.stripe.com/6",
-    "https://ping.thank-you.io/",
-    "https://search.interencheres.com/v1/search/ie4_sales?filters%5Bdatetime_range%5D=2026-11-08%2C2026-11-08&filters%5Bhas_ended%5D=not%3A1&filters%5Bif_classic_datetime_gt%5D=now%2B1",
+    "https://search.interencheres.com/v1/search/ie4_sales?filters%5Bdatetime_range%5D=2026-11-09%2C2026-11-09&filters%5Bhas_ended%5D=not%3A1&filters%5Bif_classic_datetime_gt%5D=now%2B1",
     "https://logbrowser.prod-indb.io/v1/log"
    ]
   },
@@ -113,15 +113,15 @@
    "lotsAnalyses": 0,
    "exemplesLiens": [],
    "api": [
-    "https://f3938a005f7e.44f9b63f.us-west-2.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/mp_verify?region=us-west-2",
-    "https://f3938a005f7e.44f9b63f.us-west-2.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
-    "https://f3938a005f7e.44f9b63f.us-west-2.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
-    "https://f3938a005f7e.44f9b63f.us-west-2.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
-    "https://f3938a005f7e.44f9b63f.us-west-2.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
-    "https://f3938a005f7e.44f9b63f.us-west-2.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
-    "https://f3938a005f7e.44f9b63f.us-west-2.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
-    "https://f3938a005f7e.44f9b63f.us-west-2.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
-    "https://f3938a005f7e.44f9b63f.us-west-2.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry"
+    "https://f3938a005f7e.5396bc6d.us-west-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/mp_verify?region=us-west-1",
+    "https://f3938a005f7e.5396bc6d.us-west-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
+    "https://f3938a005f7e.5396bc6d.us-west-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
+    "https://f3938a005f7e.5396bc6d.us-west-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
+    "https://f3938a005f7e.5396bc6d.us-west-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
+    "https://f3938a005f7e.5396bc6d.us-west-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
+    "https://f3938a005f7e.5396bc6d.us-west-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
+    "https://f3938a005f7e.5396bc6d.us-west-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry",
+    "https://f3938a005f7e.5396bc6d.us-west-1.token.awswaf.com/f3938a005f7e/b8a3eb4ca94e/bb59b63d8316/telemetry"
    ]
   }
  ],
